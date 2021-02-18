@@ -64,7 +64,7 @@
 						<div class="col-md-3">
 							<div class="header-logo">
 								<a href="#" class="logo" id="product-imgs">
-									<img  src="{{ url ('assets/img/logo1.png')}}" alt="">
+									<img  src="{{ url ('assets/img/1.png')}}" alt="">
 								</a>
 							</div>
 						</div>
@@ -271,7 +271,7 @@
 
 					<!-- Products tab & slick -->
 					<center>
-					<div class="col-md-6" style="margin-left: 25%">
+					<div class="col-md-12">
 						<div class="row">
 							<div class="products-tabs">
 								<!-- tab -->
@@ -1102,12 +1102,12 @@
 		<!-- /FOOTER -->
 
 		<!-- jQuery Plugins -->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/slick.min.js"></script>
-		<script src="js/nouislider.min.js"></script>
-		<script src="js/jquery.zoom.min.js"></script>
-		<script src="js/main.js"></script>
+		<script src="{{ url ('assets/js/jquery.min.js')}}"></script>
+		<script src="{{ url ('assets/js/bootstrap.min.js')}}"></script>
+		<script src="{{ url ('assets/js/slick.min.js')}}"></script>
+		<script src="{{ url ('assets/js/nouislider.min.js')}}"></script>
+		<script src="{{ url ('assets/js/jquery.zoom.min.js')}}"></script>
+		<script src="{{ url ('assets/js/main.js')}}"></script>
 
 	</body>
 </html>
