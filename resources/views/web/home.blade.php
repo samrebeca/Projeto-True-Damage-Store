@@ -42,7 +42,7 @@
 			<div id="top-header">
 				<div class="container">
 					<ul class="header-links pull-left">
-						<li><a href="#"><i class="fa fa-phone"></i> Call 911</a></li>
+						<li><a href="#"><i class="fa fa-phone"></i>(84) 4002-8922 </a></li>
 						<li><a href="#"><i class="fa fa-envelope-o"></i> TrueDamageStore@gmail.com</a></li>
 						<li><a href="#"><i class="fa fa-map-marker"></i> Caicó / Jucurutu</a></li>
 					</ul>
@@ -113,8 +113,8 @@
 													<img src="{{ url ('assets/img/adesivoporta.jpg')}}" alt="">
 												</div>
 												<div class="product-body">
-													<h3 class="product-name"><a href="#">Nome do Poduto</a></h3>
-													<h4 class="product-price"><span class="qty">1x</span>$980.00</h4>
+													<h3 class="product-name"><a href="#">Adesivo de Porta</a></h3>
+													<h4 class="product-price"><span class="qty">1x</span>$89.90</h4>
 												</div>
 												<button class="delete"><i class="fa fa-close"></i></button>
 											</div>
@@ -124,19 +124,19 @@
 													<img src="{{ url ('assets/img/almofada.jpg')}}" alt="">
 												</div>
 												<div class="product-body">
-													<h3 class="product-name"><a href="#">Nome do Poduto</a></h3>
-													<h4 class="product-price"><span class="qty">3x</span>$980.00</h4>
+													<h3 class="product-name"><a href="#">Almofada</a></h3>
+													<h4 class="product-price"><span class="qty">3x</span>$29.90</h4>
 												</div>
 												<button class="delete"><i class="fa fa-close"></i></button>
 											</div>
 										</div>
 										<div class="cart-summary">
-											<small>3 Item(s) selected</small>
-											<h5>SUBTOTAL: $2940.00</h5>
+											<small>3 Item(s) na lista</small>
+											<h5>SUBTOTAL: $179.60</h5>
 										</div>
 										<div class="cart-btns">
-											<a href="#">View Cart</a>
-											<a href="#">Checkout  <i class="fa fa-arrow-circle-right"></i></a>
+											<a href="#">Ver Carrinho</a>
+											<a href="#">Finalizar <i class="fa fa-arrow-circle-right"></i></a>
 										</div>
 									</div>
 								</div>
@@ -176,12 +176,10 @@
 						<li><a href="#">Bonecos</a></li>
 						<li><a href="#">Camisetas</a></li>
 						<li><a href="#">Canecas</a></li>
-						<li><a href="#">Colar</a></li>
-						<li><a href="#">Funko Pop</a></li>
 						<li><a href="#">Livros</a></li>
+						<li><a href="#">Mousepads</a></li>
 						<li><a href="#">Ofertas</a></li>
 						<li><a href="#">Placa Decorativa</a></li>
-						<li><a href="#">Mousepads</a></li>
 						<li><a href="#"></a></li>
 					</ul>
 					<!-- /NAV -->
@@ -205,7 +203,7 @@
 								<img src="{{ url ('assets/img/moletom-kda.jpg')}}" alt="">
 							</div>
 							<div class="shop-body">
-								<h3>Moletons<br>Veja mais</h3>
+								<h3>Moletom<br>KDA</h3>
 								<a href="#" class="cta-btn">Compre agora <i class="fa fa-arrow-circle-right"></i></a>
 							</div>
 						</div>
@@ -283,13 +281,13 @@
 												<img src="{{ url ('assets/img/placayasuo.png')}}" alt="">
 												<div class="product-label">
 													<span class="sale">-30%</span>
-													<span class="new">NEW</span>
+													<span class="new">NOVO</span>
 												</div>
 											</div>
 											<div class="product-body">
 												<p class="product-category">Categoria</p>
 												<h3 class="product-name"><a href="#">Placa Decorativa - Yasuo</a></h3>
-												<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+												<h4 class="product-price">$15.90 <del class="product-old-price">$22,40.00</del></h4>
 												<div class="product-rating">
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
@@ -299,7 +297,7 @@
 												</div>
 												<div class="product-btns">
 													<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
-													<button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">Adicione ao Carrinho</span></button>
+													<button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">Trocar</span></button>
 													<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">Visualizar</span></button>
 												</div>
 											</div>
@@ -321,8 +319,8 @@
 											</div>
 											<div class="product-body">
 												<p class="product-category">Categoria</p>
-												<h3 class="product-name"><a href="#">Camisa do Rato</a></h3>
-												<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+												<h3 class="product-name"><a href="#">Camiseta do Rato</a></h3>
+												<h4 class="product-price">$44.90 <del class="product-old-price">$59.90</del></h4>
 												<div class="product-rating">
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
@@ -332,7 +330,7 @@
 												</div>
 												<div class="product-btns">
 													<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
-													<button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">Adicione ao Carrinho</span></button>
+													<button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">Trocar</span></button>
 													<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">Visualizar</span></button>
 												</div>
 											</div>
@@ -353,12 +351,17 @@
 											<div class="product-body">
 												<p class="product-category">Categoria</p>
 												<h3 class="product-name"><a href="#">Moletom Akali</a></h3>
-												<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+												<h4 class="product-price">$182.00 <del class="product-old-price">$260.00</del></h4>
 												<div class="product-rating">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
 												</div>
 												<div class="product-btns">
 													<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
-													<button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">Adicione ao Carrinho</span></button>
+													<button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">Trocar</span></button>
 													<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">Visualizar</span></button>
 												</div>
 											</div>
@@ -376,7 +379,7 @@
 											<div class="product-body">
 												<p class="product-category">Categoria</p>
 												<h3 class="product-name"><a href="#">Mousepad da Ahri</a></h3>
-												<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+												<h4 class="product-price">$24.90 <del class="product-old-price">$35.00</del></h4>
 												<div class="product-rating">
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
@@ -386,7 +389,7 @@
 												</div>
 												<div class="product-btns">
 													<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
-													<button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">Adicione ao Carrinho</span></button>
+													<button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">Trocar</span></button>
 													<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">Visualizar</span></button>
 												</div>
 											</div>
@@ -404,7 +407,7 @@
 											<div class="product-body">
 												<p class="product-category">Categoria</p>
 												<h3 class="product-name"><a href="#">Mousepad LOL</a></h3>
-												<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+												<h4 class="product-price">$24.90 <del class="product-old-price">$35.00</del></h4>
 												<div class="product-rating">
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
@@ -414,7 +417,7 @@
 												</div>
 												<div class="product-btns">
 													<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
-													<button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">Adicione ao Carrinho</span></button>
+													<button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">Trocar</span></button>
 													<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">Visualizar</span></button>
 												</div>
 											</div>
@@ -429,13 +432,13 @@
 												<img src="{{ url ('assets/img/caderno-brand.jpeg')}}" alt="">
 												<div class="product-label">
 													<span class="sale">-30%</span>
-													<span class="new">NEW</span>
+													<span class="new">NOVO</span>
 												</div>
 											</div>
 											<div class="product-body">
 												<p class="product-category">Categoria</p>
 												<h3 class="product-name"><a href="#">Caderno Braum</a></h3>
-												<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+												<h4 class="product-price">$26.60 <del class="product-old-price">$38.00</del></h4>
 												<div class="product-rating">
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
@@ -445,7 +448,7 @@
 												</div>
 												<div class="product-btns">
 													<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
-													<button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">Adicione ao Carrinho</span></button>
+													<button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">Trocar</span></button>
 													<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">Visualizar</span></button>
 												</div>
 											</div>
@@ -460,13 +463,13 @@
 											<div class="product-img">
 												<img src="{{ url ('assets/img/caneca2.jpg')}}" alt="">
 												<div class="product-label">
-													<span class="new">NEW</span>
+													<span class="new">NOVO</span>
 												</div>
 											</div>
 											<div class="product-body">
 												<p class="product-category">Categoria</p>
 												<h3 class="product-name"><a href="#">Caneca lol</a></h3>
-												<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+												<h4 class="product-price">$29.90 <del class="product-old-price">$35.00</del></h4>
 												<div class="product-rating">
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
@@ -476,7 +479,7 @@
 												</div>
 												<div class="product-btns">
 													<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
-													<button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">Adicione ao Carrinho</span></button>
+													<button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">Trocar</span></button>
 													<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">Visualizar</span></button>
 												</div>
 											</div>
@@ -497,12 +500,17 @@
 											<div class="product-body">
 												<p class="product-category">Categoria</p>
 												<h3 class="product-name"><a href="#">Máscara Akali</a></h3>
-												<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+												<h4 class="product-price">$19.60 <del class="product-old-price">$28.00</del></h4>
 												<div class="product-rating">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
 												</div>
 												<div class="product-btns">
 													<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
-													<button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">Adicione ao Carrinho</span></button>
+													<button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">Trocar</span></button>
 													<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">Visualizar</span></button>
 												</div>
 											</div>
@@ -515,12 +523,12 @@
 										<!-- product -->
 										<div class="product">
 											<div class="product-img">
-												<img src="{{ url ('assets/img/placadecorativa1.png')}}" alt="">
+												<img src="{{ url ('assets/img/funko-tresh.jpg')}}" alt="">
 											</div>
 											<div class="product-body">
 												<p class="product-category">Categoria</p>
-												<h3 class="product-name"><a href="#">Placa Decorativa</a></h3>
-												<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+												<h3 class="product-name"><a href="#">Funko Pop Tresh</a></h3>
+												<h4 class="product-price">$120.00 <del class="product-old-price">$160.00</del></h4>
 												<div class="product-rating">
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
@@ -530,7 +538,7 @@
 												</div>
 												<div class="product-btns">
 													<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
-													<button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">Adicione ao Carrinho</span></button>
+													<button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">Trocar</span></button>
 													<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">Visualizar</span></button>
 												</div>
 											</div>
@@ -548,7 +556,7 @@
 											<div class="product-body">
 												<p class="product-category">Categoria</p>
 												<h3 class="product-name"><a href="#">Moletom True Damage</a></h3>
-												<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+												<h4 class="product-price">$79.90 <del class="product-old-price">$100.00</del></h4>
 												<div class="product-rating">
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
@@ -558,7 +566,7 @@
 												</div>
 												<div class="product-btns">
 													<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
-													<button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">Adicione ao Carrinho</span></button>
+													<button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">Trocar</span></button>
 													<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">Visualizar</span></button>
 												</div>
 											</div>
@@ -644,7 +652,7 @@
 								<ul class="section-tab-nav tab-nav">
 									<li class="active"><a data-toggle="tab" href="#tab2">Acessórios</a></li>
 									<li><a data-toggle="tab" href="#tab2">Canecas</a></li>
-									<li><a data-toggle="tab" href="#tab2">Colar</a></li>
+									<li><a data-toggle="tab" href="#tab2">Headsets</a></li>
 									<li><a data-toggle="tab" href="#tab2">Mousepads</a></li>
 								</ul>
 							</div>
@@ -699,7 +707,7 @@
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
 										<h3 class="product-name"><a href="#">Guia-Turtorial</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h4 class="product-price">$19.90 <del class="product-old-price">$25.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -712,7 +720,7 @@
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
 										<h3 class="product-name"><a href="#">Caneca Modelo 2</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h4 class="product-price">$29.90 <del class="product-old-price">$35.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -725,7 +733,7 @@
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
 										<h3 class="product-name"><a href="#">Camisa Pentakill</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h4 class="product-price">$44.90 <del class="product-old-price">$50.00</del></h4>
 									</div>
 								</div>
 								<!-- product widget -->
@@ -740,7 +748,7 @@
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
 										<h3 class="product-name"><a href="#">Camisa Tresh</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h4 class="product-price">$59.90 <del class="product-old-price">$70.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -753,7 +761,7 @@
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
 										<h3 class="product-name"><a href="#">Kit de Cadernos</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h4 class="product-price">$80.67 <del class="product-old-price">$105.90</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -766,7 +774,7 @@
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
 										<h3 class="product-name"><a href="#">Funko Pop Sin</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h4 class="product-price">$120.00 <del class="product-old-price">$150.00</del></h4>
 									</div>
 								</div>
 								<!-- product widget -->
@@ -792,7 +800,7 @@
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
 										<h3 class="product-name"><a href="#">Funko Pop Tresh</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h4 class="product-price">$120.00 <del class="product-old-price">$150.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -805,7 +813,7 @@
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
 										<h3 class="product-name"><a href="#">Camisa de Casal</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h4 class="product-price">$44.90 <del class="product-old-price">$50.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -818,7 +826,7 @@
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
 										<h3 class="product-name"><a href="#">Caderno Yasuo</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h4 class="product-price">$26.60 <del class="product-old-price">$30.00</del></h4>
 									</div>
 								</div>
 								<!-- product widget -->
@@ -833,7 +841,7 @@
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
 										<h3 class="product-name"><a href="#">Caderno Jinx</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h4 class="product-price">$26.60 <del class="product-old-price">$30.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -846,7 +854,7 @@
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
 										<h3 class="product-name"><a href="#">Adesivo de Porta</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h4 class="product-price">$89.90 <del class="product-old-price">$100.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -859,7 +867,7 @@
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
 										<h3 class="product-name"><a href="#">Moletom Teemo</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h4 class="product-price">$79.90 <del class="product-old-price">$100.00</del></h4>
 									</div>
 								</div>
 								<!-- product widget -->
@@ -887,7 +895,7 @@
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
 										<h3 class="product-name"><a href="#">Moletom Zoe</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h4 class="product-price">$79.90 <del class="product-old-price">$100.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -900,7 +908,7 @@
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
 										<h3 class="product-name"><a href="#">Suporte Headset</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h4 class="product-price">$146.90 <del class="product-old-price">$155.90</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -913,7 +921,7 @@
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
 										<h3 class="product-name"><a href="#">Funko Pop Braum</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h4 class="product-price">$120.00 <del class="product-old-price">$150.00</del></h4>
 									</div>
 								</div>
 								<!-- product widget -->
@@ -928,7 +936,7 @@
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
 										<h3 class="product-name"><a href="#">Caderno Tresh</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h4 class="product-price">$26.60 <del class="product-old-price">$30.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -941,7 +949,7 @@
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
 										<h3 class="product-name"><a href="#">Camisa lol</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h4 class="product-price">$44.90 <del class="product-old-price">$50.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -954,7 +962,7 @@
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
 										<h3 class="product-name"><a href="#">Boné Akali</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h4 class="product-price">$79.90 <del class="product-old-price">$95.00</del></h4>
 									</div>
 								</div>
 								<!-- product widget -->
