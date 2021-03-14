@@ -75,7 +75,7 @@
 								<form>
 									<select class="input-select">
 										<option value="0">Categorias</option>
-										<option value="1">Acessórios</option>
+										<option value="1"><a href="{{ route ('acessorio')}}">Acessórios</a></option>
 										<option value="1">Almofadas</option>
 										<option value="1">Bonecos</option>
 										<option value="1">Camisetas</option>

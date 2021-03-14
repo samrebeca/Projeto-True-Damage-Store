@@ -5,10 +5,11 @@ namespace App\Http\Controllers\web;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class HomeController extends Controller
+class BonecosController extends Controller
 {
-	public function home()
+	public function boneco()
 	{
-		return view('web.home');
+		return view('web.boneco');
 	}
+    //
 }
