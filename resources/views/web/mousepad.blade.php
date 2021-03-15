@@ -47,7 +47,7 @@
 						<li style="color: #ffffff"><i class="fa fa-map-marker"></i> Caicó / Jucurutu</a></li>
 					</ul>
 					<ul class="header-links pull-right">
-						<li><a href="#"><i class="fa fa-user-o"></i> Minha Conta</a></li>
+						<li><a href="{{route('login')}}"><i class="fa fa-user-o"></i> Minha Conta</a></li>
 					</ul>
 				</div>
 			</div>
@@ -72,23 +72,25 @@
 						<!-- SEARCH BAR -->
 						<div class="col-md-6">
 							<div class="header-search">
-								<form>
-									<select class="input-select">
-										<option value="0">Categorias</option>
-										<option value="1">Acessórios</option>
-										<option value="1">Almofadas</option>
-										<option value="1">Bonecos</option>
-										<option value="1">Camisetas</option>
-										<option value="1">Canecas</option>
-										<option value="1">Livros</option>
-										<option value="1">Mousepads</option>
-										<option value="1">Placas</option>
+								<form id="form" action="{{route('produtos')}}" method="GET">
+									<select class="input-select" onchange="document.getElementById('form').submit();return false;">
+										<option value="Categorias">Categorias</option>
+										<option value="Acessórios">Acessórios</option>
+										<option value="Almofadas">Almofadas</option>
+										<option value="Bonecos">Bonecos</option>
+										<option value="Camisetas">Camisetas</option>
+										<option value="Canecas">Canecas</option>
+										<option value="Livros">Livros</option>
+										<option value="Mousepad">Mousepads</option>
+										<option value="Placa">Placas</option>
 									</select>
 									<input class="input" placeholder="O que tu tanto procura, hein?">
 									<button class="search-btn">Pesquisar</button>
 								</form>
 							</div>
 						</div>
+						<!-- /NAVIGATION -->
+
 						<!-- /SEARCH BAR -->
 
 						<!-- ACCOUNT -->
@@ -148,6 +150,13 @@
 								<!-- /Cart -->
 
 								<!-- Menu Toogle -->
+								<div class="menu-toggle">
+									<a href="#">
+										<i class="fa fa-bars"></i>
+										<span>Menu</span>
+									</a>
+								</div>
+								<!-- /Menu Toogle -->
 							</div>
 						</div>
 						<!-- /ACCOUNT -->
@@ -160,11 +169,29 @@
 		</header>
 		<!-- /HEADER -->
 
-		<!-- NAVIGATION -->
-
-		<!-- /NAVIGATION -->
-
-		<!-- SECTION -->
+		<nav id="navigation">
+			<!-- container -->
+			<div class="container">
+				<!-- responsive-nav -->
+				<div id="responsive-nav">
+					<!-- NAV -->
+					<ul class="main-nav nav navbar-nav">
+						<li class="active"><a href="{{route('home')}}">Início</a></li>
+						<li><a href="{{route('acessorio')}}">Acessórios</a></li>
+						<li><a href="{{route('almofada')}}">Almofadas</a></li>
+						<li><a href="{{route('boneco')}}">Bonecos</a></li>
+						<li><a href="{{route('camiseta')}}">Camisetas</a></li>
+						<li><a href="{{route('caneca')}}">Canecas</a></li>
+						<li><a href="{{route('livro')}}">Livros</a></li>
+						<li><a href="{{route('mousepad')}}">Mousepad</a></li>
+						<li><a href="{{route('placa')}}">Placas</a></li>
+					</ul>
+					<!-- /NAV -->
+				</div>
+				<!-- /responsive-nav -->
+			</div>
+			<!-- /container -->
+		</nav>
 
 		<!-- SECTION -->
 		<div class="section">
@@ -176,7 +203,7 @@
 					<!-- section title -->
 					<div class="col-md-12">
 						<div class="section-title">
-							<h3 class="title">Acessórios</h3>
+							<h3 class="title">Mousepads</h3>
 						</div>
 					</div>
 					<!-- /section title -->

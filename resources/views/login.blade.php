@@ -64,11 +64,15 @@
                       </label>
                       <button type="submit" class="btn btn-login float-right">Entrar</button>
                   </div>
+                  <p class="link">
+                    Ainda não tem conta?
+                    <a href="{{route('cadastro')}}">Cadastre-se</a>
+                </p>
 
-              </form>
+            </form>
 
-          </div>
-          <div class="col-md-8 banner-sec">
+        </div>
+        <div class="col-md-8 banner-sec">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -80,7 +84,7 @@
                     <img class="d-block img-fluid" src="{{ url ('assets/img/truedamage1.jpg')}}" alt="First slide">
                     <div class="carousel-caption d-none d-md-block">
                         <div class="banner-text">
-                            
+
                         </div>  
                     </div>
                 </div>
