@@ -5,11 +5,11 @@ namespace App\Http\Controllers\web;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class LivrosController extends Controller
+class MoletonsController extends Controller
 {
-	public function livro()
+	public function moletom()
 	{
-		return view('web.livro');
+		return view('web.moletom');
 	}
     //
 }

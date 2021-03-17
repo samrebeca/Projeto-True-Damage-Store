@@ -72,21 +72,7 @@
 						<!-- SEARCH BAR -->
 						<div class="col-md-6">
 							<div class="header-search">
-								<form id="form" action="{{route('produtos')}}" method="GET">
-									<select class="input-select" onchange="document.getElementById('form').submit();return false;">
-										<option value="Categorias">Categorias</option>
-										<option value="Acessórios">Acessórios</option>
-										<option value="Almofadas">Almofadas</option>
-										<option value="Bonecos">Bonecos</option>
-										<option value="Camisetas">Camisetas</option>
-										<option value="Canecas">Canecas</option>
-										<option value="Livros">Livros</option>
-										<option value="Mousepad">Mousepads</option>
-										<option value="Placa">Placas</option>
-									</select>
-									<input class="input" placeholder="O que tu tanto procura, hein?">
-									<button class="search-btn">Pesquisar</button>
-								</form>
+							<img src="{{ url ('assets/img/logo3.png')}}" class="icbarra">
 							</div>
 						</div>
 						<!-- /NAVIGATION -->
@@ -182,7 +168,7 @@
 						<li><a href="{{route('boneco')}}">Bonecos</a></li>
 						<li><a href="{{route('camiseta')}}">Camisetas</a></li>
 						<li><a href="{{route('caneca')}}">Canecas</a></li>
-						<li><a href="{{route('livro')}}">Livros</a></li>
+						<li><a href="{{route('moletom')}}">Moletons</a></li>
 						<li><a href="{{route('mousepad')}}">Mousepad</a></li>
 						<li><a href="{{route('placa')}}">Placas</a></li>
 					</ul>
@@ -203,7 +189,7 @@
 					<!-- section title -->
 					<div class="col-md-12">
 						<div class="section-title">
-							<h3 class="title">Livros</h3>
+							<h3 class="title">Moletons</h3>
 						</div>
 					</div>
 					<!-- /section title -->
@@ -219,7 +205,7 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/bone-akali.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/moletons/moletom-thresh.jpg')}}" alt="">
 													<div class="product-label">
 														<span class="sale">-30%</span>
 														<span class="new">NOVO</span>
@@ -227,8 +213,8 @@
 												</div>
 												<div class="product-body">
 													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Boné Akali</a></h3>
-													<h4 class="product-price">$79.90 <del class="product-old-price">$98.00</del></h4>
+													<h3 class="product-name"><a href="#">Moletom Thresh</a></h3>
+													<h4 class="product-price">$75.90 <del class="product-old-price">$79.90</del></h4>
 													<div class="product-rating">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
@@ -252,15 +238,15 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/mascara-akali.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/moletons/moletom-akali.jpg')}}" alt="">
 													<div class="product-label">
 														<span class="new">NOVO</span>
 													</div>
 												</div>
 												<div class="product-body">
 													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Máscara Akali</a></h3>
-													<h4 class="product-price">$19.60 <del class="product-old-price">$28.00</del></h4>
+													<h3 class="product-name"><a href="#">Moletom Akhali</a></h3>
+													<h4 class="product-price">$182.00 <del class="product-old-price">$260.00</del></h4>
 													<div class="product-rating">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
@@ -282,15 +268,15 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/colar da amizade tresh.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/moletons/moletom-kda.jpg')}}" alt="">
 													<div class="product-label">
 														<span class="sale">-30%</span>
 													</div>
 												</div>
 												<div class="product-body">
 													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Colar da amizade Tresh</a></h3>
-													<h4 class="product-price">$19.90 <del class="product-old-price">$25.00</del></h4>
+													<h3 class="product-name"><a href="#">Moletom KDA</a></h3>
+													<h4 class="product-price">$89.90 <del class="product-old-price">$99.00</del></h4>
 													<div class="product-rating">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
@@ -312,183 +298,183 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/mousepad-ahri.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/moletons/moletom-teemo.jpg')}}" alt="">
 												</div>
 												<div class="product-body">
 													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Mousepad da Ahri</a></h3>
-													<h4 class="product-price">$24.90 <del class="product-old-price">$35.00</del></h4>
-													<div class="product-rating">
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-													</div>
-													<div class="product-btns">
-														<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
-
-													</div>
-												</div>
-												<div class="add-to-cart">
-													<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
-												</div>
-											</div>
-											<!-- /product -->
-
-											<!-- product -->
-											<div class="product">
-												<div class="product-img">
-													<img src="{{ url ('assets/img/mousepad-lol.jpg')}}" alt="">
-												</div>
-												<div class="product-body">
-													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Mousepad LOL</a></h3>
-													<h4 class="product-price">$24.90 <del class="product-old-price">$35.00</del></h4>
-													<div class="product-rating">
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-													</div>
-													<div class="product-btns">
-														<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
-
-													</div>
-												</div>
-												<div class="add-to-cart">
-													<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
-												</div>
-											</div>
-											<!-- /product -->
-											<!-- product -->
-											<div class="product">
-												<div class="product-img">
-													<img src="{{ url ('assets/img/caderno-brand.jpeg')}}" alt="">
-													<div class="product-label">
-														<span class="sale">-30%</span>
-														<span class="new">NOVO</span>
-													</div>
-												</div>
-												<div class="product-body">
-													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Caderno Braum</a></h3>
-													<h4 class="product-price">$26.60 <del class="product-old-price">$38.00</del></h4>
-													<div class="product-rating">
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-													</div>
-													<div class="product-btns">
-														<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
-
-													</div>
-												</div>
-												<div class="add-to-cart">
-													<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
-												</div>
-											</div>
-											<!-- /product -->
-
-											<!-- product -->
-											<div class="product">
-												<div class="product-img">
-													<img src="{{ url ('assets/img/caneca2.jpg')}}" alt="">
-													<div class="product-label">
-														<span class="new">NOVO</span>
-													</div>
-												</div>
-												<div class="product-body">
-													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Caneca lol</a></h3>
-													<h4 class="product-price">$29.90 <del class="product-old-price">$35.00</del></h4>
-													<div class="product-rating">
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star-o"></i>
-													</div>
-													<div class="product-btns">
-														<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
-
-													</div>
-												</div>
-												<div class="add-to-cart">
-													<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
-												</div>
-											</div>
-											<!-- /product -->
-
-											<!-- product -->
-											<div class="product">
-												<div class="product-img">
-													<img src="{{ url ('assets/img/mascara-akali.jpg')}}" alt="">
-													<div class="product-label">
-														<span class="sale">-30%</span>
-													</div>
-												</div>
-												<div class="product-body">
-													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Máscara Akali</a></h3>
-													<h4 class="product-price">$19.60 <del class="product-old-price">$28.00</del></h4>
-													<div class="product-rating">
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-													</div>
-													<div class="product-btns">
-														<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
-
-													</div>
-												</div>
-												<div class="add-to-cart">
-													<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
-												</div>
-											</div>
-											<!-- /product -->
-
-											<!-- product -->
-											<div class="product">
-												<div class="product-img">
-													<img src="{{ url ('assets/img/funko-tresh.jpg')}}" alt="">
-												</div>
-												<div class="product-body">
-													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Funko Pop Tresh</a></h3>
-													<h4 class="product-price">$120.00 <del class="product-old-price">$160.00</del></h4>
-													<div class="product-rating">
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-													</div>
-													<div class="product-btns">
-														<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
-
-													</div>
-												</div>
-												<div class="add-to-cart">
-													<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
-												</div>
-											</div>
-											<!-- /product -->
-
-											<!-- product -->
-											<div class="product">
-												<div class="product-img">
-													<img src="{{ url ('assets/img/moletom-truedamage.jpg')}}" alt="">
-												</div>
-												<div class="product-body">
-													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Moletom True Damage</a></h3>
+													<h3 class="product-name"><a href="#">Moletom Teemo</a></h3>
 													<h4 class="product-price">$79.90 <del class="product-old-price">$100.00</del></h4>
+													<div class="product-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</div>
+													<div class="product-btns">
+														<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
+
+													</div>
+												</div>
+												<div class="add-to-cart">
+													<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
+												</div>
+											</div>
+											<!-- /product -->
+
+											<!-- product -->
+											<div class="product">
+												<div class="product-img">
+													<img src="{{ url ('assets/img/moletons/moletom-kindred.jpg')}}" alt="">
+												</div>
+												<div class="product-body">
+													<p class="product-category">Categoria</p>
+													<h3 class="product-name"><a href="#">Moletom Kindred Chibi</a></h3>
+													<h4 class="product-price">$120.90 <del class="product-old-price">$135.00</del></h4>
+													<div class="product-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</div>
+													<div class="product-btns">
+														<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
+
+													</div>
+												</div>
+												<div class="add-to-cart">
+													<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
+												</div>
+											</div>
+											<!-- /product -->
+											<!-- product -->
+											<div class="product">
+												<div class="product-img">
+													<img src="{{ url ('assets/img/moletons/moletom-pentakill.jpg')}}" alt="">
+													<div class="product-label">
+														<span class="sale">-30%</span>
+														<span class="new">NOVO</span>
+													</div>
+												</div>
+												<div class="product-body">
+													<p class="product-category">Categoria</p>
+													<h3 class="product-name"><a href="#">Moletom Pentakill</a></h3>
+													<h4 class="product-price">$80.91 <del class="product-old-price">$89.90</del></h4>
+													<div class="product-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</div>
+													<div class="product-btns">
+														<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
+
+													</div>
+												</div>
+												<div class="add-to-cart">
+													<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
+												</div>
+											</div>
+											<!-- /product -->
+
+											<!-- product -->
+											<div class="product">
+												<div class="product-img">
+													<img src="{{ url ('assets/img/moletons/moletom-braum.jpg')}}" alt="">
+													<div class="product-label">
+														<span class="new">NOVO</span>
+													</div>
+												</div>
+												<div class="product-body">
+													<p class="product-category">Categoria</p>
+													<h3 class="product-name"><a href="#">Moletom Braum</a></h3>
+													<h4 class="product-price">$148.79 <del class="product-old-price">$154.99</del></h4>
+													<div class="product-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star-o"></i>
+													</div>
+													<div class="product-btns">
+														<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
+
+													</div>
+												</div>
+												<div class="add-to-cart">
+													<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
+												</div>
+											</div>
+											<!-- /product -->
+
+											<!-- product -->
+											<div class="product">
+												<div class="product-img">
+													<img src="{{ url ('assets/img/moletons/moletom-missfortune.jpg')}}" alt="">
+													<div class="product-label">
+														<span class="sale">-30%</span>
+													</div>
+												</div>
+												<div class="product-body">
+													<p class="product-category">Categoria</p>
+													<h3 class="product-name"><a href="#">Moletom Miss Fortune</a></h3>
+													<h4 class="product-price">$75.30 <del class="product-old-price">$82.50</del></h4>
+													<div class="product-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</div>
+													<div class="product-btns">
+														<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
+
+													</div>
+												</div>
+												<div class="add-to-cart">
+													<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
+												</div>
+											</div>
+											<!-- /product -->
+
+											<!-- product -->
+											<div class="product">
+												<div class="product-img">
+													<img src="{{ url ('assets/img/moletons/moletom-zoe.jpg')}}" alt="">
+												</div>
+												<div class="product-body">
+													<p class="product-category">Categoria</p>
+													<h3 class="product-name"><a href="#">Moletom Zoe</a></h3>
+													<h4 class="product-price">$79.00 <del class="product-old-price">$100.00</del></h4>
+													<div class="product-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</div>
+													<div class="product-btns">
+														<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
+
+													</div>
+												</div>
+												<div class="add-to-cart">
+													<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
+												</div>
+											</div>
+											<!-- /product -->
+
+											<!-- product -->
+											<div class="product">
+												<div class="product-img">
+													<img src="{{ url ('assets/img/moletons/moletom-lol.jpg')}}" alt="">
+												</div>
+												<div class="product-body">
+													<p class="product-category">Categoria</p>
+													<h3 class="product-name"><a href="#">Moletom LOL</a></h3>
+													<h4 class="product-price">$84.62<del class="product-old-price">$93.80.00</del></h4>
 													<div class="product-rating">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
@@ -566,57 +552,18 @@
 						</div>
 
 						<div class="products-widget-slick" data-nav="#slick-nav-3">
-							<div>
-								<!-- product widget -->
-								<div class="product-widget">
-									<div class="product-img">
-										<img src="{{ url ('assets/img/guia.jpg')}}" alt="">
-									</div>
-									<div class="product-body">
-										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Guia-Turtorial</a></h3>
-										<h4 class="product-price">$19.90 <del class="product-old-price">$25.00</del></h4>
-									</div>
-								</div>
-								<!-- /product widget -->
-
-								<!-- product widget -->
-								<div class="product-widget">
-									<div class="product-img">
-										<img src="{{ url ('assets/img/caneca-lol.jpg')}}" alt="">
-									</div>
-									<div class="product-body">
-										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Caneca Modelo 2</a></h3>
-										<h4 class="product-price">$29.90 <del class="product-old-price">$35.00</del></h4>
-									</div>
-								</div>
-								<!-- /product widget -->
-
-								<!-- product widget -->
-								<div class="product-widget">
-									<div class="product-img">
-										<img src="{{ url ('assets/img/camisa-kill.jpg')}}" alt="">
-									</div>
-									<div class="product-body">
-										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Camisa Pentakill</a></h3>
-										<h4 class="product-price">$44.90 <del class="product-old-price">$50.00</del></h4>
-									</div>
-								</div>
-								<!-- product widget -->
-							</div>
+							
 
 							<div>
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/camisa-tresh.jpg')}}" alt="">
+										<img src="{{ url ('assets/img/moletons/moletom-kda.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Camisa Tresh</a></h3>
-										<h4 class="product-price">$59.90 <del class="product-old-price">$70.00</del></h4>
+										<h3 class="product-name">Moletom KDA</a></h3>
+										<h4 class="product-price">$89.90 <del class="product-old-price">$99.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -624,12 +571,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/caderno4por1.jpg')}}" alt="">
+										<img src="{{ url ('assets/img/moletons/moletom-thresh.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Kit de Cadernos</a></h3>
-										<h4 class="product-price">$80.67 <del class="product-old-price">$105.90</del></h4>
+										<h3 class="product-name">Moletom Thresh</a></h3>
+										<h4 class="product-price">$75.90 <del class="product-old-price">$79.90</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -637,12 +584,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/funko-lee.jpg')}}" alt="">
+										<img src="{{ url ('assets/img/moletons/moletom-missfortune.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Funko Pop Sin</a></h3>
-										<h4 class="product-price">$120.00 <del class="product-old-price">$150.00</del></h4>
+										<h3 class="product-name">Moletom  Miss Fortune</a></h3>
+										<h4 class="product-price">$75.30  <del class="product-old-price">$82.50</del></h4>
 									</div>
 								</div>
 								<!-- product widget -->
@@ -663,12 +610,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/funko-tresh.jpg')}}" alt="">
+										<img src="{{ url ('assets/img/moletons/moletom-thresh.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Funko Pop Tresh</a></h3>
-										<h4 class="product-price">$120.00 <del class="product-old-price">$150.00</del></h4>
+										<h3 class="product-name">Moletom Thresh</a></h3>
+										<h4 class="product-price">$75.90 <del class="product-old-price">$79.90</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -676,12 +623,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/camisa-casal.jpg')}}" alt="">
+										<img src="{{ url ('assets/img/moletons/moletom-zoe.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Camisa de Casal</a></h3>
-										<h4 class="product-price">$44.90 <del class="product-old-price">$50.00</del></h4>
+										<h3 class="product-name">Moletom Zoe</a></h3>
+										<h4 class="product-price">$79.00<del class="product-old-price">$100.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -689,48 +636,7 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/caderno-yasuo.jpeg')}}" alt="">
-									</div>
-									<div class="product-body">
-										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Caderno Yasuo</a></h3>
-										<h4 class="product-price">$26.60 <del class="product-old-price">$30.00</del></h4>
-									</div>
-								</div>
-								<!-- product widget -->
-							</div>
-
-							<div>
-								<!-- product widget -->
-								<div class="product-widget">
-									<div class="product-img">
-										<img src="{{ url ('assets/img/caderno-jinx.jpeg')}}" alt="">
-									</div>
-									<div class="product-body">
-										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Caderno Jinx</a></h3>
-										<h4 class="product-price">$26.60 <del class="product-old-price">$30.00</del></h4>
-									</div>
-								</div>
-								<!-- /product widget -->
-
-								<!-- product widget -->
-								<div class="product-widget">
-									<div class="product-img">
-										<img src="{{ url ('assets/img/adesivoporta2.jpg')}}" alt="">
-									</div>
-									<div class="product-body">
-										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Adesivo de Porta</a></h3>
-										<h4 class="product-price">$89.90 <del class="product-old-price">$100.00</del></h4>
-									</div>
-								</div>
-								<!-- /product widget -->
-
-								<!-- product widget -->
-								<div class="product-widget">
-									<div class="product-img">
-										<img src="{{ url ('assets/img/moletom-teemo.jpg')}}" alt="">
+										<img src="{{ url ('assets/img/moletons/moletom-teemo.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
@@ -740,6 +646,8 @@
 								</div>
 								<!-- product widget -->
 							</div>
+
+							
 						</div>
 					</div>
 
@@ -758,12 +666,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/moletom-zoe.jpg')}}" alt="">
+										<img src="{{ url ('assets/img/moletons/moletom-akali.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Moletom Zoe</a></h3>
-										<h4 class="product-price">$79.90 <del class="product-old-price">$100.00</del></h4>
+										<h3 class="product-name">Moletom Akhali</a></h3>
+										<h4 class="product-price">$182.00 <del class="product-old-price">$260.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -771,12 +679,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/suporte2.jpg')}}" alt="">
+										<img src="{{ url ('assets/img/moletons/moletom-braum.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Suporte Headset</a></h3>
-										<h4 class="product-price">$146.90 <del class="product-old-price">$155.90</del></h4>
+										<h3 class="product-name">Moletom Braum</a></h3>
+										<h4 class="product-price">$148.79 <del class="product-old-price">$154.99</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -784,57 +692,18 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/funko-braum.jpg')}}" alt="">
+										<img src="{{ url ('assets/img/moletons/moletom-kindred.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Funko Pop Braum</a></h3>
-										<h4 class="product-price">$120.00 <del class="product-old-price">$150.00</del></h4>
+										<h3 class="product-name">Moletom Kindred Chibi</a></h3>
+										<h4 class="product-price">$120.90  <del class="product-old-price">$135.00</del></h4>
 									</div>
 								</div>
 								<!-- product widget -->
 							</div>
 
-							<div>
-								<!-- product widget -->
-								<div class="product-widget">
-									<div class="product-img">
-										<img src="{{ url ('assets/img/caderno-tresh.png')}}" alt="">
-									</div>
-									<div class="product-body">
-										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Caderno Tresh</a></h3>
-										<h4 class="product-price">$26.60 <del class="product-old-price">$30.00</del></h4>
-									</div>
-								</div>
-								<!-- /product widget -->
-
-								<!-- product widget -->
-								<div class="product-widget">
-									<div class="product-img">
-										<img src="{{ url ('assets/img/almofada.jpg')}}" alt="">
-									</div>
-									<div class="product-body">
-										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Camisa lol</a></h3>
-										<h4 class="product-price">$44.90 <del class="product-old-price">$50.00</del></h4>
-									</div>
-								</div>
-								<!-- /product widget -->
-
-								<!-- product widget -->
-								<div class="product-widget">
-									<div class="product-img">
-										<img src="{{ url ('assets/img/bone-akali.jpg')}}" alt="">
-									</div>
-									<div class="product-body">
-										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Boné Akali</a></h3>
-										<h4 class="product-price">$79.90 <del class="product-old-price">$95.00</del></h4>
-									</div>
-								</div>
-								<!-- product widget -->
-							</div>
+							
 						</div>
 					</div>
 

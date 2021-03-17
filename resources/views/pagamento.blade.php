@@ -2,6 +2,27 @@
 <html>
 <head>
 	<title>Pagamento</title>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="{{ url ('assets/css/bootstrap.min.css')}}"/>
+
+	<!-- Slick -->
+	<link type="text/css" rel="stylesheet" href="{{ url ('assets/css/slick.css')}}"/>
+	<link type="text/css" rel="stylesheet" href="{{ url ('assets/css/slick-theme.css')}}"/>
+
+	<!-- nouislider -->
+	<link type="text/css" rel="stylesheet" href="{{ url ('assets/css/nouislider.min.css')}}"/>
+
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="{{ url ('assets/css/font-awesome.min.css')}}">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="{{ url ('assets/css/style.css')}}"/>
+
+
 	<script type="text/javascript">
 		$(document).ready(function() {
 			
@@ -33,8 +54,7 @@
 		html,
 		body {
 			font-family: 'Montserrat', sans-serif;
-			font-size-adjust: u
-			display: flex;
+			font-size-adjust: ;
 			width: 100%;
 			height: 100%;
 			background:#83aefc;
@@ -117,19 +137,19 @@
 		}
 		
 		.step:nth-child(1):before {
-			content: 'Cart';
+			
 		}
 		.step:nth-child(2):before {
 			right: -40px;
-			content: 'Confirmation';
+			
 		}
 		.step:nth-child(3):before {
 			right: -30px;
-			content: 'Payment';
+			
 		}
 		.step:nth-child(4):before {
 			right: 0;
-			content: 'Finish';
+			
 		}
 		.payment-method {
 			display: flex;
@@ -188,6 +208,15 @@
 		div[class*='column'] {
 			width: 382px;
 		}
+		select {
+			font-size: 16px;
+			width: 100%;
+			height: 50px;
+			padding-right: 40px;
+			padding-left: 16px;
+			border: 1px solid #BF303C;
+			border-radius: 4px;
+		}
 		
 		input[type='text'],
 		input[type='password'] {
@@ -197,19 +226,20 @@
 			padding-right: 40px;
 			padding-left: 16px;
 			color: rgba(46, 46, 46, .8);
-			border: 1px solid rgb(225, 225, 225);
+			border: 1px solid #BF303C;
 			border-radius: 4px;
 			outline: none;
 		}
 		
 		input[type='text']:focus,
 		input[type='password']:focus {
-			border-color: rgb(119, 219, 119);
+			border-color: #BF303C;
 		}
 		
 		#date { background: url(img/icons_calendar_black.png) no-repeat 95%; }
 		#cardholder { background: url(img/icons_person_black.png) no-repeat 95%; }
 		#cardnumber { background: url(img/icons_card_black.png) no-repeat 95%; }
+		#cardcpf { background: url(img/icons_card_black.png) no-repeat 95%; width: 205%;}
 		#verification { background: url(img/icons_lock_black.png) no-repeat 95%; }
 		
 		.small-inputs {
@@ -231,24 +261,16 @@
 			align-items: center;
 		}
 		.btn {
-			font-size: 16px;
-			width: 163px;
-			height: 48px;
-			cursor: pointer;
-			transition: all .2s ease-in-out;
-			letter-spacing: 1px;
-			border: none;
-			border-radius: 23px;
-		}
+			background: #BF303C; color:#fff; font-weight:600;}
 		
 		.back-btn {
-			color: #1abc9c;
-			background: #fff;
+			color: #fff;
+			background: #BF303C;
 		}
 		
 		.next-btn {
 			color: #fff;
-			background: #1abc9c;
+			background: #BF303C;
 		}
 		
 		.btn:focus {
@@ -267,9 +289,56 @@
 	</style>
 </head>
 <body>
+
+	<!-- HEADER -->
+		<header>
+			<!-- TOP HEADER -->
+			<div id="top-header">
+				<div class="container">
+					<ul class="header-links pull-left">
+						<li style="color: #ffffff"><i class="fa fa-phone"></i>(84) 4002-8922 </a></li>
+						<li style="color: #ffffff"><i class="fa fa-envelope-o"></i> TrueDamageStore@gmail.com</a></li>
+						<li style="color: #ffffff"><i class="fa fa-map-marker"></i> Caicó / Jucurutu</a></li>
+					</ul>
+					<ul class="header-links pull-right">
+						<li><a href="{{route('login')}}"><i class="fa fa-user-o"></i> Minha Conta</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- /TOP HEADER -->
+
+			<!-- MAIN HEADER -->
+			<div id="header">
+				<!-- container -->
+				<div class="container">
+					<!-- row -->
+					<div class="row">
+						<!-- LOGO -->
+						<div class="col-md-3">
+							<div class="header-logo">
+								<a href="#" class="logo" id="product-imgs">
+									<img  src="{{ url ('assets/img/1.png')}}" alt="">
+								</a>
+							</div>
+						</div>
+						<!-- /LOGO -->
+
+						<!-- SEARCH BAR -->
+						<div class="col-md-6">
+							<div class="header-search">
+							<img src="{{ url ('assets/img/logo3.png')}}" class="icbarra">
+							</div>
+						</div>
+						
+						
+								</div>
+								
+
+								
+ <center>
 	<div class="checkout-panel">
 		<div class="panel-body">
-			<h2 class="title">Checkout here!</h2>
+			<h2 style= "margin-bottom:30px; font-weight:800; font-size:30px; color: #BF303C; "class="title">DETALHES DE FATURAMENTO</h2>
 			
 			<div class="progress-bar">
 				<div class="step active"></div>
@@ -287,7 +356,7 @@
 					
 					<div class="radio-input">
 						<input id="card" type="radio" name="payment">
-						Pay AU$20.99 with credit card
+						Pagar com cartão de crédito
 					</div>
 				</label>
 				
@@ -295,42 +364,61 @@
 					<img src="https://designmodo.com/demo/checkout-panel/img/paypal_logo.png"/>
 					<div class="radio-input">
 						<input id="paypal" type="radio" name="payment">
-						Pay AU$20.99 with PayPal
+						Pagar com PayPal
 					</div>
 				</label>
 			</div>
 			
 			<div class="input-fields">
 				<div class="column-1">
-					<label for="cardholder">Name</label>
+					<label for="cardholder">Nome: (como gravado no cartão)</label>
 					<input type="text" id="cardholder" />
+
+					<label for="cardnumber" >CPF</label>
+					<input type="text" id="cardcpf"/>
+
+				<label for="verification">Número do Cartão:</label>
+							<input type="password" id="verification"/>
+
+
+
+					
 					
 					<div class="small-inputs">
 						<div>
-							<label for="date">Valid date</label>
+							<label for="date">Data de Validade:</label>
 							<input type="text" id="date"/>
 						</div>
 						
 						<div>
-							<label for="verification">CVV / CVC *</label>
+							<label for="verification">Código de Segurança:</label>
 							<input type="password" id="verification"/>
 						</div>
 					</div>
 					
 				</div>
+
+				
+				<br>
 				<div class="column-2">
-					<label for="cardnumber">Card Number</label>
-					<input type="password" id="cardnumber"/>
+					<label for="cardholder">Tipo de Pessoa:</label>
+					<select>
+					<option value="">-</option>
+					<option value="">Pessoa Física</option>
+					<option value="">Pessoa Jurídica</option>
+				</select>
 					
-					<span class="info">* CVV or CVC is the card security code, unique three digits number on the back of your card separate from its number.</span>
+					
+					
 				</div>
 			</div>
 		</div>
 		
 		<div class="panel-footer">
-			<button class="btn back-btn">Back</button>
-			<button class="btn next-btn">Next Step</button>
+			<button class="btn back-btn">Voltar</button>
+			<button class="btn next-btn">Finalizar Pagamento</button>
 		</div>
 	</div>
+	</center>
 </body>
 </html>

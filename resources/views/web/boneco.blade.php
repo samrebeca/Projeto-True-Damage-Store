@@ -72,21 +72,7 @@
 						<!-- SEARCH BAR -->
 						<div class="col-md-6">
 							<div class="header-search">
-								<form id="form" action="{{route('produtos')}}" method="GET">
-									<select class="input-select" onchange="document.getElementById('form').submit();return false;">
-										<option value="Categorias">Categorias</option>
-										<option value="Acessórios">Acessórios</option>
-										<option value="Almofadas">Almofadas</option>
-										<option value="Bonecos">Bonecos</option>
-										<option value="Camisetas">Camisetas</option>
-										<option value="Canecas">Canecas</option>
-										<option value="Livros">Livros</option>
-										<option value="Mousepad">Mousepads</option>
-										<option value="Placa">Placas</option>
-									</select>
-									<input class="input" placeholder="O que tu tanto procura, hein?">
-									<button class="search-btn">Pesquisar</button>
-								</form>
+							<img src="{{ url ('assets/img/logo3.png')}}" class="icbarra">
 							</div>
 						</div>
 						<!-- /NAVIGATION -->
@@ -117,7 +103,7 @@
 										<div class="cart-list">
 											<div class="product-widget">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/adesivoporta.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/acessorios/adesivoporta.jpg')}}" alt="">
 												</div>
 												<div class="product-body">
 													<h3 class="product-name"><a href="#">Adesivo de Porta</a></h3>
@@ -128,7 +114,7 @@
 
 											<div class="product-widget">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/almofada.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/almofadas/almofada.jpg')}}" alt="">
 												</div>
 												<div class="product-body">
 													<h3 class="product-name"><a href="#">Almofada</a></h3>
@@ -182,7 +168,7 @@
 						<li><a href="{{route('boneco')}}">Bonecos</a></li>
 						<li><a href="{{route('camiseta')}}">Camisetas</a></li>
 						<li><a href="{{route('caneca')}}">Canecas</a></li>
-						<li><a href="{{route('livro')}}">Livros</a></li>
+						<li><a href="{{route('moletom')}}">Moletons</a></li>
 						<li><a href="{{route('mousepad')}}">Mousepad</a></li>
 						<li><a href="{{route('placa')}}">Placas</a></li>
 					</ul>
@@ -219,7 +205,7 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/bone-akali.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/acessorios/bone-akali.jpg')}}" alt="">
 													<div class="product-label">
 														<span class="sale">-30%</span>
 														<span class="new">NOVO</span>
@@ -252,7 +238,7 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/mascara-akali.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/acessorios/mascara-akali.jpg')}}" alt="">
 													<div class="product-label">
 														<span class="new">NOVO</span>
 													</div>
@@ -282,7 +268,7 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/colar da amizade tresh.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/acessorios/colar da amizade tresh.jpg')}}" alt="">
 													<div class="product-label">
 														<span class="sale">-30%</span>
 													</div>
@@ -312,7 +298,7 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/mousepad-ahri.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/mousepads/mousepad-ahri.jpg')}}" alt="">
 												</div>
 												<div class="product-body">
 													<p class="product-category">Categoria</p>
@@ -339,7 +325,7 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/mousepad-lol.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/mousepads/mousepad-lol.jpg')}}" alt="">
 												</div>
 												<div class="product-body">
 													<p class="product-category">Categoria</p>
@@ -365,7 +351,7 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/caderno-brand.jpeg')}}" alt="">
+													<img src="{{ url ('assets/img/acessorios/caderno-brand.jpeg')}}" alt="">
 													<div class="product-label">
 														<span class="sale">-30%</span>
 														<span class="new">NOVO</span>
@@ -396,7 +382,7 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/caneca2.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/canecas/caneca2.jpg')}}" alt="">
 													<div class="product-label">
 														<span class="new">NOVO</span>
 													</div>
@@ -426,7 +412,7 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/mascara-akali.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/acessorios/mascara-akali.jpg')}}" alt="">
 													<div class="product-label">
 														<span class="sale">-30%</span>
 													</div>
@@ -456,7 +442,7 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/funko-tresh.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/bonecos/funko-tresh.jpg')}}" alt="">
 												</div>
 												<div class="product-body">
 													<p class="product-category">Categoria</p>
@@ -483,7 +469,7 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/moletom-truedamage.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/moletons/moletom-truedamage.jpg')}}" alt="">
 												</div>
 												<div class="product-body">
 													<p class="product-category">Categoria</p>
@@ -583,7 +569,7 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/caneca-lol.jpg')}}" alt="">
+										<img src="{{ url ('assets/img/canecas/caneca-lol.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
@@ -596,7 +582,7 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/camisa-kill.jpg')}}" alt="">
+										<img src="{{ url ('assets/img/camisetas/camisa-kill.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
@@ -607,46 +593,7 @@
 								<!-- product widget -->
 							</div>
 
-							<div>
-								<!-- product widget -->
-								<div class="product-widget">
-									<div class="product-img">
-										<img src="{{ url ('assets/img/camisa-tresh.jpg')}}" alt="">
-									</div>
-									<div class="product-body">
-										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Camisa Tresh</a></h3>
-										<h4 class="product-price">$59.90 <del class="product-old-price">$70.00</del></h4>
-									</div>
-								</div>
-								<!-- /product widget -->
-
-								<!-- product widget -->
-								<div class="product-widget">
-									<div class="product-img">
-										<img src="{{ url ('assets/img/caderno4por1.jpg')}}" alt="">
-									</div>
-									<div class="product-body">
-										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Kit de Cadernos</a></h3>
-										<h4 class="product-price">$80.67 <del class="product-old-price">$105.90</del></h4>
-									</div>
-								</div>
-								<!-- /product widget -->
-
-								<!-- product widget -->
-								<div class="product-widget">
-									<div class="product-img">
-										<img src="{{ url ('assets/img/funko-lee.jpg')}}" alt="">
-									</div>
-									<div class="product-body">
-										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Funko Pop Sin</a></h3>
-										<h4 class="product-price">$120.00 <del class="product-old-price">$150.00</del></h4>
-									</div>
-								</div>
-								<!-- product widget -->
-							</div>
+							
 						</div>
 					</div>
 
@@ -663,7 +610,7 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/funko-tresh.jpg')}}" alt="">
+										<img src="{{ url ('assets/img/bonecos/funko-tresh.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
@@ -676,7 +623,7 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/camisa-casal.jpg')}}" alt="">
+										<img src="{{ url ('assets/img/camisetas/camisa-casal.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
@@ -689,7 +636,7 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/caderno-yasuo.jpeg')}}" alt="">
+										<img src="{{ url ('assets/img/acessorios/caderno-yasuo.jpeg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
@@ -700,46 +647,7 @@
 								<!-- product widget -->
 							</div>
 
-							<div>
-								<!-- product widget -->
-								<div class="product-widget">
-									<div class="product-img">
-										<img src="{{ url ('assets/img/caderno-jinx.jpeg')}}" alt="">
-									</div>
-									<div class="product-body">
-										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Caderno Jinx</a></h3>
-										<h4 class="product-price">$26.60 <del class="product-old-price">$30.00</del></h4>
-									</div>
-								</div>
-								<!-- /product widget -->
-
-								<!-- product widget -->
-								<div class="product-widget">
-									<div class="product-img">
-										<img src="{{ url ('assets/img/adesivoporta2.jpg')}}" alt="">
-									</div>
-									<div class="product-body">
-										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Adesivo de Porta</a></h3>
-										<h4 class="product-price">$89.90 <del class="product-old-price">$100.00</del></h4>
-									</div>
-								</div>
-								<!-- /product widget -->
-
-								<!-- product widget -->
-								<div class="product-widget">
-									<div class="product-img">
-										<img src="{{ url ('assets/img/moletom-teemo.jpg')}}" alt="">
-									</div>
-									<div class="product-body">
-										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Moletom Teemo</a></h3>
-										<h4 class="product-price">$79.90 <del class="product-old-price">$100.00</del></h4>
-									</div>
-								</div>
-								<!-- product widget -->
-							</div>
+							
 						</div>
 					</div>
 
@@ -758,7 +666,7 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/moletom-zoe.jpg')}}" alt="">
+										<img src="{{ url ('assets/img/moletons/moletom-zoe.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
@@ -771,7 +679,7 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/suporte2.jpg')}}" alt="">
+										<img src="{{ url ('assets/img/acessorios/suporte2.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
@@ -784,7 +692,7 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/funko-braum.jpg')}}" alt="">
+										<img src="{{ url ('assets/img/bonecos/funko-braum.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
@@ -795,46 +703,7 @@
 								<!-- product widget -->
 							</div>
 
-							<div>
-								<!-- product widget -->
-								<div class="product-widget">
-									<div class="product-img">
-										<img src="{{ url ('assets/img/caderno-tresh.png')}}" alt="">
-									</div>
-									<div class="product-body">
-										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Caderno Tresh</a></h3>
-										<h4 class="product-price">$26.60 <del class="product-old-price">$30.00</del></h4>
-									</div>
-								</div>
-								<!-- /product widget -->
-
-								<!-- product widget -->
-								<div class="product-widget">
-									<div class="product-img">
-										<img src="{{ url ('assets/img/almofada.jpg')}}" alt="">
-									</div>
-									<div class="product-body">
-										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Camisa lol</a></h3>
-										<h4 class="product-price">$44.90 <del class="product-old-price">$50.00</del></h4>
-									</div>
-								</div>
-								<!-- /product widget -->
-
-								<!-- product widget -->
-								<div class="product-widget">
-									<div class="product-img">
-										<img src="{{ url ('assets/img/bone-akali.jpg')}}" alt="">
-									</div>
-									<div class="product-body">
-										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Boné Akali</a></h3>
-										<h4 class="product-price">$79.90 <del class="product-old-price">$95.00</del></h4>
-									</div>
-								</div>
-								<!-- product widget -->
-							</div>
+							
 						</div>
 					</div>
 

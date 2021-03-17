@@ -29,7 +29,7 @@ Route::get("/produtos/almofada", "App\Http\Controllers\web\AlmofadasController@a
 Route::get('produtos/boneco' , 'App\Http\Controllers\web\BonecosController@boneco')->name("boneco");
 Route::get('produtos/camiseta' , 'App\Http\Controllers\web\CamisetasController@camiseta')->name("camiseta");
 Route::get('produtos/caneca' , 'App\Http\Controllers\web\CanecasController@caneca')->name("caneca");
-Route::get('produtos/livro' , 'App\Http\Controllers\web\LivrosController@livro')->name("livro");
+Route::get('produtos/moletom' , 'App\Http\Controllers\web\MoletonsController@moletom')->name("moletom");
 Route::get('produtos/mousepad' , 'App\Http\Controllers\web\MousepadsController@mousepad')->name("mousepad");
 Route::get('produtos/placa' , 'App\Http\Controllers\web\PlacasController@placa')->name("placa");
 Route::get('/login' , 'App\Http\Controllers\web\LoginsController@login')->name("login");

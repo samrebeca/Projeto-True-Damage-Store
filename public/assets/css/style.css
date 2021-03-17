@@ -90,7 +90,13 @@ ul, ol {
 	Buttons
 \*----------------------------*/
 
+.icbarra{
+      position: relative;
+      margin-left: -80%;
+      width: 250%;
+      
 
+    }
 
 .primary-btn {
   display: inline-block;
