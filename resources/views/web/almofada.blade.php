@@ -205,16 +205,16 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/acessorios/bone-akali.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/almofadas/aldiana.jpg')}}" alt="">
 													<div class="product-label">
-														<span class="sale">-30%</span>
+														<span class="sale">-10%</span>
 														<span class="new">NOVO</span>
 													</div>
 												</div>
 												<div class="product-body">
 													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Boné Akali</a></h3>
-													<h4 class="product-price">$79.90 <del class="product-old-price">$98.00</del></h4>
+													<h3 class="product-name"><a href="#">Almofada Diana</a></h3>
+													<h4 class="product-price">$34.20 <del class="product-old-price">$38.00</del></h4>
 													<div class="product-rating">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
@@ -238,15 +238,15 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/acessorios/mascara-akali.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/almofadas/aljanna.jpg')}}" alt="">
 													<div class="product-label">
 														<span class="new">NOVO</span>
 													</div>
 												</div>
 												<div class="product-body">
 													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Máscara Akali</a></h3>
-													<h4 class="product-price">$19.60 <del class="product-old-price">$28.00</del></h4>
+													<h3 class="product-name"><a href="#">Almofada Janna</a></h3>
+													<h4 class="product-price">$24.60 <del class="product-old-price">$30.00</del></h4>
 													<div class="product-rating">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
@@ -268,15 +268,15 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/acessorios/colar da amizade tresh.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/almofadas/alakali.jpg')}}" alt="">
 													<div class="product-label">
 														<span class="sale">-30%</span>
 													</div>
 												</div>
 												<div class="product-body">
 													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Colar da amizade Tresh</a></h3>
-													<h4 class="product-price">$19.90 <del class="product-old-price">$25.00</del></h4>
+													<h3 class="product-name"><a href="#">Almofada Akali</a></h3>
+													<h4 class="product-price">$27.30 <del class="product-old-price">$30.00</del></h4>
 													<div class="product-rating">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
@@ -298,12 +298,12 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/mousepads/mousepad-ahri.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/almofadas/alshen.jpg')}}" alt="">
 												</div>
 												<div class="product-body">
 													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Mousepad da Ahri</a></h3>
-													<h4 class="product-price">$24.90 <del class="product-old-price">$35.00</del></h4>
+													<h3 class="product-name"><a href="#">Almofada Shen</a></h3>
+													<h4 class="product-price">$26.90 <del class="product-old-price">$38.00</del></h4>
 													<div class="product-rating">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
@@ -325,12 +325,12 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/mousepads/mousepad-lol.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/almofadas/allux.jpg')}}" alt="">
 												</div>
 												<div class="product-body">
 													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Mousepad LOL</a></h3>
-													<h4 class="product-price">$24.90 <del class="product-old-price">$35.00</del></h4>
+													<h3 class="product-name"><a href="#">Almofada Lux</a></h3>
+													<h4 class="product-price">$34.90 <del class="product-old-price">$40.00</del></h4>
 													<div class="product-rating">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
@@ -351,16 +351,16 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/acessorios/caderno-brand.jpeg')}}" alt="">
+													<img src="{{ url ('assets/img/almofadas/allol.jpg')}}" alt="">
 													<div class="product-label">
-														<span class="sale">-30%</span>
+														<span class="sale">-15%</span>
 														<span class="new">NOVO</span>
 													</div>
 												</div>
 												<div class="product-body">
 													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Caderno Braum</a></h3>
-													<h4 class="product-price">$26.60 <del class="product-old-price">$38.00</del></h4>
+													<h3 class="product-name"><a href="#">Almofada League of Legends</a></h3>
+													<h4 class="product-price">$42.50 <del class="product-old-price">$50.00</del></h4>
 													<div class="product-rating">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
@@ -382,14 +382,14 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/canecas/caneca2.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/almofadas/alpyke.jpg')}}" alt="">
 													<div class="product-label">
 														<span class="new">NOVO</span>
 													</div>
 												</div>
 												<div class="product-body">
 													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Caneca lol</a></h3>
+													<h3 class="product-name"><a href="#">Almofada Pyke</a></h3>
 													<h4 class="product-price">$29.90 <del class="product-old-price">$35.00</del></h4>
 													<div class="product-rating">
 														<i class="fa fa-star"></i>
@@ -412,15 +412,15 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/acessorios/mascara-akali.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/almofadas/alyasuo.jpg')}}" alt="">
 													<div class="product-label">
 														<span class="sale">-30%</span>
 													</div>
 												</div>
 												<div class="product-body">
 													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Máscara Akali</a></h3>
-													<h4 class="product-price">$19.60 <del class="product-old-price">$28.00</del></h4>
+													<h3 class="product-name"><a href="#">Almofada Yasuo</a></h3>
+													<h4 class="product-price">$44.80 <del class="product-old-price">$64.00</del></h4>
 													<div class="product-rating">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
@@ -442,12 +442,12 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/bonecos/funko-tresh.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/almofadas/alheimerdinger.jpg')}}" alt="">
 												</div>
 												<div class="product-body">
 													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Funko Pop Tresh</a></h3>
-													<h4 class="product-price">$120.00 <del class="product-old-price">$160.00</del></h4>
+													<h3 class="product-name"><a href="#">Almofada Heimerding</a></h3>
+													<h4 class="product-price">$40.50 <del class="product-old-price">$52.00</del></h4>
 													<div class="product-rating">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
@@ -469,12 +469,12 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/moletons/moletom-truedamage.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/almofadas/altwitch.jpg')}}" alt="">
 												</div>
 												<div class="product-body">
 													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Moletom True Damage</a></h3>
-													<h4 class="product-price">$79.90 <del class="product-old-price">$100.00</del></h4>
+													<h3 class="product-name"><a href="#">Almofada Twitch</a></h3>
+													<h4 class="product-price">$59.90 <del class="product-old-price">$70.00</del></h4>
 													<div class="product-rating">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
@@ -556,12 +556,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/guia.jpg')}}" alt="">
+										<img src="{{ url ('assets/img/almofadas/allux.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Guia-Turtorial</a></h3>
-										<h4 class="product-price">$19.90 <del class="product-old-price">$25.00</del></h4>
+										<h3 class="product-name">Almofada Lux</a></h3>
+										<h4 class="product-price">$39.90 <del class="product-old-price">$40.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -569,12 +569,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/canecas/caneca-lol.jpg')}}" alt="">
+										<img src="{{ url ('assets/img/almofadas/allol.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Caneca Modelo 2</a></h3>
-										<h4 class="product-price">$29.90 <del class="product-old-price">$35.00</del></h4>
+										<h3 class="product-name">Almofada League of Legends</a></h3>
+										<h4 class="product-price">$42.50 <del class="product-old-price">$50.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -582,12 +582,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/camisetas/camisa-kill.jpg')}}" alt="">
+										<img src="{{ url ('assets/img/almofadas/aldiana.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
 										<h3 class="product-name">Camisa Pentakill</a></h3>
-										<h4 class="product-price">$44.90 <del class="product-old-price">$50.00</del></h4>
+										<h4 class="product-price">$34.20 <del class="product-old-price">$38.00</del></h4>
 									</div>
 								</div>
 								<!-- product widget -->
@@ -610,12 +610,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/bonecos/funko-tresh.jpg')}}" alt="">
+										<img src="{{ url ('assets/img/almofadas/aljanna.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Funko Pop Tresh</a></h3>
-										<h4 class="product-price">$120.00 <del class="product-old-price">$150.00</del></h4>
+										<h3 class="product-name">Almofada Janna</a></h3>
+										<h4 class="product-price">$24.60 <del class="product-old-price">$30.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -623,12 +623,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/camisetas/camisa-casal.jpg')}}" alt="">
+										<img src="{{ url ('assets/img/almofadas/alshen.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Camisa de Casal</a></h3>
-										<h4 class="product-price">$44.90 <del class="product-old-price">$50.00</del></h4>
+										<h3 class="product-name">Almofada Shen</a></h3>
+										<h4 class="product-price">$26.90 <del class="product-old-price">$38.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -636,12 +636,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/acessorios/caderno-yasuo.jpeg')}}" alt="">
+										<img src="{{ url ('assets/img/almofadas/alakali.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Caderno Yasuo</a></h3>
-										<h4 class="product-price">$26.60 <del class="product-old-price">$30.00</del></h4>
+										<h3 class="product-name">Almofada Akali</a></h3>
+										<h4 class="product-price">$27.30 <del class="product-old-price">$30.00</del></h4>
 									</div>
 								</div>
 								<!-- product widget -->
@@ -666,12 +666,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/moletons/moletom-zoe.jpg')}}" alt="">
+										<img src="{{ url ('assets/img/almofadas/altwitch.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Moletom Zoe</a></h3>
-										<h4 class="product-price">$79.90 <del class="product-old-price">$100.00</del></h4>
+										<h3 class="product-name">Almofada Twitch</a></h3>
+										<h4 class="product-price">$59.90 <del class="product-old-price">$70.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -679,12 +679,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/acessorios/suporte2.jpg')}}" alt="">
+										<img src="{{ url ('assets/img/almofadas/alyasuo.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Suporte Headset</a></h3>
-										<h4 class="product-price">$146.90 <del class="product-old-price">$155.90</del></h4>
+										<h3 class="product-name">Almofada Yasuo</a></h3>
+										<h4 class="product-price">$44.80 <del class="product-old-price">$64.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -692,12 +692,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/bonecos/funko-braum.jpg')}}" alt="">
+										<img src="{{ url ('assets/img/almofadas/alheimerdinger.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Funko Pop Braum</a></h3>
-										<h4 class="product-price">$120.00 <del class="product-old-price">$150.00</del></h4>
+										<h3 class="product-name">Almofada Heimerdinger</a></h3>
+										<h4 class="product-price">$40.50 <del class="product-old-price">$52.00</del></h4>
 									</div>
 								</div>
 								<!-- product widget -->

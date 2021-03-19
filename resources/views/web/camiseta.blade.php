@@ -205,7 +205,7 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/acessorios/bone-akali.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/camisetas/katarina.jpg')}}" alt="">
 													<div class="product-label">
 														<span class="sale">-30%</span>
 														<span class="new">NOVO</span>
@@ -213,8 +213,8 @@
 												</div>
 												<div class="product-body">
 													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Boné Akali</a></h3>
-													<h4 class="product-price">$79.90 <del class="product-old-price">$98.00</del></h4>
+													<h3 class="product-name"><a href="#">Camiseta Katarina</a></h3>
+													<h4 class="product-price">$51.20 <del class="product-old-price">$74.00</del></h4>
 													<div class="product-rating">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
@@ -238,15 +238,15 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/acessorios/mascara-akali.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/camisetas/jinxx.jpg')}}" alt="">
 													<div class="product-label">
 														<span class="new">NOVO</span>
 													</div>
 												</div>
 												<div class="product-body">
 													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Máscara Akali</a></h3>
-													<h4 class="product-price">$19.60 <del class="product-old-price">$28.00</del></h4>
+													<h3 class="product-name"><a href="#">Camisa Jinx</a></h3>
+													<h4 class="product-price">$34.99 <del class="product-old-price">$42.00</del></h4>
 													<div class="product-rating">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
@@ -268,15 +268,15 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/acessorios/colar da amizade tresh.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/camisetas/loll.jpg')}}" alt="">
 													<div class="product-label">
 														<span class="sale">-30%</span>
 													</div>
 												</div>
 												<div class="product-body">
 													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Colar da amizade Tresh</a></h3>
-													<h4 class="product-price">$19.90 <del class="product-old-price">$25.00</del></h4>
+													<h3 class="product-name"><a href="#">Camiseta League of Legends</a></h3>
+													<h4 class="product-price">$36.20 <del class="product-old-price">$52.00</del></h4>
 													<div class="product-rating">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
@@ -298,11 +298,11 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/mousepads/mousepad-ahri.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/camisetas/zyra.webp')}}" alt="">
 												</div>
 												<div class="product-body">
 													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Mousepad da Ahri</a></h3>
+													<h3 class="product-name"><a href="#">Camiseta Zyra</a></h3>
 													<h4 class="product-price">$24.90 <del class="product-old-price">$35.00</del></h4>
 													<div class="product-rating">
 														<i class="fa fa-star"></i>
@@ -325,11 +325,11 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/mousepads/mousepad-lol.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/camisetas/ziggs.jpg')}}" alt="">
 												</div>
 												<div class="product-body">
 													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Mousepad LOL</a></h3>
+													<h3 class="product-name"><a href="#">Camiseta Ziggs</a></h3>
 													<h4 class="product-price">$24.90 <del class="product-old-price">$35.00</del></h4>
 													<div class="product-rating">
 														<i class="fa fa-star"></i>
@@ -351,7 +351,7 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/acessorios/caderno-brand.jpeg')}}" alt="">
+													<img src="{{ url ('assets/img/camisetas/jhin.jpg')}}" alt="">
 													<div class="product-label">
 														<span class="sale">-30%</span>
 														<span class="new">NOVO</span>
@@ -359,8 +359,8 @@
 												</div>
 												<div class="product-body">
 													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Caderno Braum</a></h3>
-													<h4 class="product-price">$26.60 <del class="product-old-price">$38.00</del></h4>
+													<h3 class="product-name"><a href="#">Camiseta Jhin</a></h3>
+													<h4 class="product-price">$58.80 <del class="product-old-price">$84.00</del></h4>
 													<div class="product-rating">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
@@ -382,14 +382,14 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/canecas/caneca2.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/camisetas/rengarr.jpg')}}" alt="">
 													<div class="product-label">
 														<span class="new">NOVO</span>
 													</div>
 												</div>
 												<div class="product-body">
 													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Caneca lol</a></h3>
+													<h3 class="product-name"><a href="#">Camiseta Rengar</a></h3>
 													<h4 class="product-price">$29.90 <del class="product-old-price">$35.00</del></h4>
 													<div class="product-rating">
 														<i class="fa fa-star"></i>
@@ -412,14 +412,14 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/acessorios/mascara-akali.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/camisetas/camisa-casal.jpg')}}" alt="">
 													<div class="product-label">
 														<span class="sale">-30%</span>
 													</div>
 												</div>
 												<div class="product-body">
 													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Máscara Akali</a></h3>
+													<h3 class="product-name"><a href="#">Camisa de Casal</a></h3>
 													<h4 class="product-price">$19.60 <del class="product-old-price">$28.00</del></h4>
 													<div class="product-rating">
 														<i class="fa fa-star"></i>
@@ -442,12 +442,12 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/bonecos/funko-tresh.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/camisetas/camisa-kill.jpg')}}" alt="">
 												</div>
 												<div class="product-body">
 													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Funko Pop Tresh</a></h3>
-													<h4 class="product-price">$120.00 <del class="product-old-price">$160.00</del></h4>
+													<h3 class="product-name"><a href="#">Camiseta Penta Kill</a></h3>
+													<h4 class="product-price">$44.90 <del class="product-old-price">$50.00</del></h4>
 													<div class="product-rating">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
@@ -469,11 +469,11 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/moletons/moletom-truedamage.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/camisetas/illaoi.jpg')}}" alt="">
 												</div>
 												<div class="product-body">
 													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Moletom True Damage</a></h3>
+													<h3 class="product-name"><a href="#">Camiseta Illaoi</a></h3>
 													<h4 class="product-price">$79.90 <del class="product-old-price">$100.00</del></h4>
 													<div class="product-rating">
 														<i class="fa fa-star"></i>
@@ -556,12 +556,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/guia.jpg')}}" alt="">
+										<img src="{{ url ('assets/img/camisetas/katarina.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Guia-Turtorial</a></h3>
-										<h4 class="product-price">$19.90 <del class="product-old-price">$25.00</del></h4>
+										<h3 class="product-name">Camiseta Katarina</a></h3>
+										<h4 class="product-price">$51.20 <del class="product-old-price">$74.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -569,12 +569,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/canecas/caneca-lol.jpg')}}" alt="">
+										<img src="{{ url ('assets/img/camisetas/jinxx.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Caneca Modelo 2</a></h3>
-										<h4 class="product-price">$29.90 <del class="product-old-price">$35.00</del></h4>
+										<h3 class="product-name">Camiseta Jinx</a></h3>
+										<h4 class="product-price">$39.90 <del class="product-old-price">$42.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -610,12 +610,25 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/bonecos/funko-tresh.jpg')}}" alt="">
+										<img src="{{ url ('assets/img/camisetas/zyra.webp')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Funko Pop Tresh</a></h3>
-										<h4 class="product-price">$120.00 <del class="product-old-price">$150.00</del></h4>
+										<h3 class="product-name">Camiseta Zyra</a></h3>
+										<h4 class="product-price">$29.90 <del class="product-old-price">$35.00</del></h4>
+									</div>
+								</div>
+								<!-- /product widget -->
+
+								<!-- product widget -->
+								<div class="product-widget">
+									<div class="product-img">
+										<img src="{{ url ('assets/img/camisetas/ziggs.jpg')}}" alt="">
+									</div>
+									<div class="product-body">
+										<p class="product-category">Categoria</p>
+										<h3 class="product-name">Camiseta Ziggs</a></h3>
+										<h4 class="product-price">$29.90 <del class="product-old-price">$35.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -628,20 +641,7 @@
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
 										<h3 class="product-name">Camisa de Casal</a></h3>
-										<h4 class="product-price">$44.90 <del class="product-old-price">$50.00</del></h4>
-									</div>
-								</div>
-								<!-- /product widget -->
-
-								<!-- product widget -->
-								<div class="product-widget">
-									<div class="product-img">
-										<img src="{{ url ('assets/img/acessorios/caderno-yasuo.jpeg')}}" alt="">
-									</div>
-									<div class="product-body">
-										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Caderno Yasuo</a></h3>
-										<h4 class="product-price">$26.60 <del class="product-old-price">$30.00</del></h4>
+										<h4 class="product-price">$19.60 <del class="product-old-price">$28.00</del></h4>
 									</div>
 								</div>
 								<!-- product widget -->
@@ -666,38 +666,38 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/moletons/moletom-zoe.jpg')}}" alt="">
+										<img src="{{ url ('assets/img/camisetas/katarina.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Moletom Zoe</a></h3>
+										<h3 class="product-name">Camiseta Katarina</a></h3>
+										<h4 class="product-price">$51.20 <del class="product-old-price">$74.00</del></h4>
+									</div>
+								</div>
+								<!-- /product widget -->
+
+								<!-- product widget -->
+								<div class="product-widget">
+									<div class="product-img">
+										<img src="{{ url ('assets/img/camisetas/jhin.jpg')}}" alt="">
+									</div>
+									<div class="product-body">
+										<p class="product-category">Categoria</p>
+										<h3 class="product-name">Camiseta Jhin</a></h3>
+										<h4 class="product-price">$58.80 <del class="product-old-price">$84.00</del></h4>
+									</div>
+								</div>
+								<!-- /product widget -->
+
+								<!-- product widget -->
+								<div class="product-widget">
+									<div class="product-img">
+										<img src="{{ url ('assets/img/camisetas/illaoi.jpg')}}" alt="">
+									</div>
+									<div class="product-body">
+										<p class="product-category">Categoria</p>
+										<h3 class="product-name">Camiseta Illaoi</a></h3>
 										<h4 class="product-price">$79.90 <del class="product-old-price">$100.00</del></h4>
-									</div>
-								</div>
-								<!-- /product widget -->
-
-								<!-- product widget -->
-								<div class="product-widget">
-									<div class="product-img">
-										<img src="{{ url ('assets/img/acessorios/suporte2.jpg')}}" alt="">
-									</div>
-									<div class="product-body">
-										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Suporte Headset</a></h3>
-										<h4 class="product-price">$146.90 <del class="product-old-price">$155.90</del></h4>
-									</div>
-								</div>
-								<!-- /product widget -->
-
-								<!-- product widget -->
-								<div class="product-widget">
-									<div class="product-img">
-										<img src="{{ url ('assets/img/bonecos/funko-braum.jpg')}}" alt="">
-									</div>
-									<div class="product-body">
-										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Funko Pop Braum</a></h3>
-										<h4 class="product-price">$120.00 <del class="product-old-price">$150.00</del></h4>
 									</div>
 								</div>
 								<!-- product widget -->

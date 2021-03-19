@@ -205,249 +205,78 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/acessorios/bone-akali.jpg')}}" alt="">
-													<div class="product-label">
-														<span class="sale">-30%</span>
-														<span class="new">NOVO</span>
-													</div>
-												</div>
-												<div class="product-body">
-													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Boné Akali</a></h3>
-													<h4 class="product-price">$79.90 <del class="product-old-price">$98.00</del></h4>
-													<div class="product-rating">
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-													</div>
-													<div class="product-btns">
-														<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
-
-													</div>
-												</div>
-
-												<div class="add-to-cart">
-													<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
-												</div>
-
-											</div>
-											<!-- /product -->
-
-											<!-- product -->
-											<div class="product">
-												<div class="product-img">
-													<img src="{{ url ('assets/img/acessorios/mascara-akali.jpg')}}" alt="">
-													<div class="product-label">
-														<span class="new">NOVO</span>
-													</div>
-												</div>
-												<div class="product-body">
-													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Máscara Akali</a></h3>
-													<h4 class="product-price">$19.60 <del class="product-old-price">$28.00</del></h4>
-													<div class="product-rating">
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star-o"></i>
-													</div>
-													<div class="product-btns">
-														<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
-
-													</div>
-												</div>
-												<div class="add-to-cart">
-													<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
-												</div>
-											</div>
-											<!-- /product -->
-
-											<!-- product -->
-											<div class="product">
-												<div class="product-img">
-													<img src="{{ url ('assets/img/acessorios/colar da amizade tresh.jpg')}}" alt="">
-													<div class="product-label">
-														<span class="sale">-30%</span>
-													</div>
-												</div>
-												<div class="product-body">
-													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Colar da amizade Tresh</a></h3>
-													<h4 class="product-price">$19.90 <del class="product-old-price">$25.00</del></h4>
-													<div class="product-rating">
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-													</div>
-													<div class="product-btns">
-														<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
-
-													</div>
-												</div>
-												<div class="add-to-cart">
-													<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
-												</div>
-											</div>
-											<!-- /product -->
-
-											<!-- product -->
-											<div class="product">
-												<div class="product-img">
-													<img src="{{ url ('assets/img/mousepads/mousepad-ahri.jpg')}}" alt="">
-												</div>
-												<div class="product-body">
-													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Mousepad da Ahri</a></h3>
-													<h4 class="product-price">$24.90 <del class="product-old-price">$35.00</del></h4>
-													<div class="product-rating">
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-													</div>
-													<div class="product-btns">
-														<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
-
-													</div>
-												</div>
-												<div class="add-to-cart">
-													<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
-												</div>
-											</div>
-											<!-- /product -->
-
-											<!-- product -->
-											<div class="product">
-												<div class="product-img">
-													<img src="{{ url ('assets/img/mousepads/mousepad-lol.jpg')}}" alt="">
-												</div>
-												<div class="product-body">
-													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Mousepad LOL</a></h3>
-													<h4 class="product-price">$24.90 <del class="product-old-price">$35.00</del></h4>
-													<div class="product-rating">
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-													</div>
-													<div class="product-btns">
-														<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
-
-													</div>
-												</div>
-												<div class="add-to-cart">
-													<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
-												</div>
-											</div>
-											<!-- /product -->
-											<!-- product -->
-											<div class="product">
-												<div class="product-img">
-													<img src="{{ url ('assets/img/acessorios/caderno-brand.jpeg')}}" alt="">
-													<div class="product-label">
-														<span class="sale">-30%</span>
-														<span class="new">NOVO</span>
-													</div>
-												</div>
-												<div class="product-body">
-													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Caderno Braum</a></h3>
-													<h4 class="product-price">$26.60 <del class="product-old-price">$38.00</del></h4>
-													<div class="product-rating">
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-													</div>
-													<div class="product-btns">
-														<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
-
-													</div>
-												</div>
-												<div class="add-to-cart">
-													<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
-												</div>
-											</div>
-											<!-- /product -->
-
-											<!-- product -->
-											<div class="product">
-												<div class="product-img">
-													<img src="{{ url ('assets/img/canecas/caneca2.jpg')}}" alt="">
-													<div class="product-label">
-														<span class="new">NOVO</span>
-													</div>
-												</div>
-												<div class="product-body">
-													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Caneca lol</a></h3>
-													<h4 class="product-price">$29.90 <del class="product-old-price">$35.00</del></h4>
-													<div class="product-rating">
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star-o"></i>
-													</div>
-													<div class="product-btns">
-														<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
-
-													</div>
-												</div>
-												<div class="add-to-cart">
-													<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
-												</div>
-											</div>
-											<!-- /product -->
-
-											<!-- product -->
-											<div class="product">
-												<div class="product-img">
-													<img src="{{ url ('assets/img/acessorios/mascara-akali.jpg')}}" alt="">
-													<div class="product-label">
-														<span class="sale">-30%</span>
-													</div>
-												</div>
-												<div class="product-body">
-													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Máscara Akali</a></h3>
-													<h4 class="product-price">$19.60 <del class="product-old-price">$28.00</del></h4>
-													<div class="product-rating">
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-													</div>
-													<div class="product-btns">
-														<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
-
-													</div>
-												</div>
-												<div class="add-to-cart">
-													<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
-												</div>
-											</div>
-											<!-- /product -->
-
-											<!-- product -->
-											<div class="product">
-												<div class="product-img">
 													<img src="{{ url ('assets/img/bonecos/funko-tresh.jpg')}}" alt="">
+													<div class="product-label">
+														<span class="sale">-30%</span>
+														<span class="new">NOVO</span>
+													</div>
 												</div>
 												<div class="product-body">
 													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Funko Pop Tresh</a></h3>
-													<h4 class="product-price">$120.00 <del class="product-old-price">$160.00</del></h4>
+													<h3 class="product-name"><a href="#">Funko Pop Thresh</a></h3>
+													<h4 class="product-price">$227.50 <del class="product-old-price">$325.00</del></h4>
+													<div class="product-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</div>
+													<div class="product-btns">
+														<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
+
+													</div>
+												</div>
+
+												<div class="add-to-cart">
+													<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
+												</div>
+
+											</div>
+											<!-- /product -->
+
+											<!-- product -->
+											<div class="product">
+												<div class="product-img">
+													<img src="{{ url ('assets/img/bonecos/funko-amumu.jpg')}}" alt="">
+													<div class="product-label">
+														<span class="new">NOVO</span>
+													</div>
+												</div>
+												<div class="product-body">
+													<p class="product-category">Categoria</p>
+													<h3 class="product-name"><a href="#">Funko Pop Amumu</a></h3>
+													<h4 class="product-price">$233.10 <del class="product-old-price">$259.00</del></h4>
+													<div class="product-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star-o"></i>
+													</div>
+													<div class="product-btns">
+														<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
+
+													</div>
+												</div>
+												<div class="add-to-cart">
+													<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
+												</div>
+											</div>
+											<!-- /product -->
+
+											<!-- product -->
+											<div class="product">
+												<div class="product-img">
+													<img src="{{ url ('assets/img/bonecos/funko-braum.jpg')}}" alt="">
+													<div class="product-label">
+														<span class="sale">-30%</span>
+													</div>
+												</div>
+												<div class="product-body">
+													<p class="product-category">Categoria</p>
+													<h3 class="product-name"><a href="#">Funko Pop Braum</a></h3>
+													<h4 class="product-price">$258.30 <del class="product-old-price">$369.00</del></h4>
 													<div class="product-rating">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
@@ -469,12 +298,12 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/moletons/moletom-truedamage.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/bonecos/funko-missf.jpg')}}" alt="">
 												</div>
 												<div class="product-body">
 													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Moletom True Damage</a></h3>
-													<h4 class="product-price">$79.90 <del class="product-old-price">$100.00</del></h4>
+													<h3 class="product-name"><a href="#">Funko Pop Miss Fortune</a></h3>
+													<h4 class="product-price">$182.90 <del class="product-old-price">$200.00</del></h4>
 													<div class="product-rating">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
@@ -491,6 +320,126 @@
 													<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
 												</div>
 											</div>
+											<!-- /product -->
+
+											<!-- product -->
+											<div class="product">
+												<div class="product-img">
+													<img src="{{ url ('assets/img/bonecos/funko-ashe.jpg')}}" alt="">
+												</div>
+												<div class="product-body">
+													<p class="product-category">Categoria</p>
+													<h3 class="product-name"><a href="#">Funko Pop Ashe</a></h3>
+													<h4 class="product-price">$202.50 <del class="product-old-price">$225.00</del></h4>
+													<div class="product-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</div>
+													<div class="product-btns">
+														<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
+
+													</div>
+												</div>
+												<div class="add-to-cart">
+													<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
+												</div>
+											</div>
+											<!-- /product -->
+											<!-- product -->
+											<div class="product">
+												<div class="product-img">
+													<img src="{{ url ('assets/img/bonecos/funko-jinx.jpg')}}" alt="">
+													<div class="product-label">
+														<span class="sale">-30%</span>
+														<span class="new">NOVO</span>
+													</div>
+												</div>
+												<div class="product-body">
+													<p class="product-category">Categoria</p>
+													<h3 class="product-name"><a href="#">Funko Pop Jinx</a></h3>
+													<h4 class="product-price">$226.10 <del class="product-old-price">$323.00</del></h4>
+													<div class="product-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</div>
+													<div class="product-btns">
+														<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
+
+													</div>
+												</div>
+												<div class="add-to-cart">
+													<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
+												</div>
+											</div>
+											<!-- /product -->
+
+											<!-- product -->
+											<div class="product">
+												<div class="product-img">
+													<img src="{{ url ('assets/img/bonecos/funko-lee.jpg')}}" alt="">
+													<div class="product-label">
+														<span class="new">NOVO</span>
+													</div>
+												</div>
+												<div class="product-body">
+													<p class="product-category">Categoria</p>
+													<h3 class="product-name"><a href="#">Funko Pop Lee Sin</a></h3>
+													<h4 class="product-price">$256.00 <del class="product-old-price">$320.00</del></h4>
+													<div class="product-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star-o"></i>
+													</div>
+													<div class="product-btns">
+														<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
+
+													</div>
+												</div>
+												<div class="add-to-cart">
+													<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
+												</div>
+											</div>
+											<!-- /product -->
+
+											<!-- product -->
+											
+											<!-- /product -->
+
+											<!-- product -->
+											<div class="product">
+												<div class="product-img">
+													<img src="{{ url ('assets/img/bonecos/funko-djsona.jpg')}}" alt="">
+												</div>
+												<div class="product-body">
+													<p class="product-category">Categoria</p>
+													<h3 class="product-name"><a href="#">Funko Pop Dj Sona</a></h3>
+													<h4 class="product-price">$247.50 <del class="product-old-price">$275.00</del></h4>
+													<div class="product-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+													</div>
+													<div class="product-btns">
+														<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
+
+													</div>
+												</div>
+												<div class="add-to-cart">
+													<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
+												</div>
+											</div>
+											<!-- /product -->
+											
 											<!-- /product -->
 										</div>
 										<div id="slick-nav-1" class="products-slick-nav"></div>
@@ -556,12 +505,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/guia.jpg')}}" alt="">
+										<img src="{{ url ('assets/img/bonecos/funko-tresh.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Guia-Turtorial</a></h3>
-										<h4 class="product-price">$19.90 <del class="product-old-price">$25.00</del></h4>
+										<h3 class="product-name">Funko Pop Thresh</a></h3>
+										<h4 class="product-price">$227.50 <del class="product-old-price">$325.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -569,12 +518,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/canecas/caneca-lol.jpg')}}" alt="">
+										<img src="{{ url ('assets/img/bonecos/funko-amumu.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Caneca Modelo 2</a></h3>
-										<h4 class="product-price">$29.90 <del class="product-old-price">$35.00</del></h4>
+										<h3 class="product-name">Funko Pop Amumu</a></h3>
+										<h4 class="product-price">$223.10 <del class="product-old-price">$259.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -582,12 +531,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/camisetas/camisa-kill.jpg')}}" alt="">
+										<img src="{{ url ('assets/img/bonecos/funko-lee.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Camisa Pentakill</a></h3>
-										<h4 class="product-price">$44.90 <del class="product-old-price">$50.00</del></h4>
+										<h3 class="product-name">Funko Pop Lee Sin</a></h3>
+										<h4 class="product-price">$256.00 <del class="product-old-price">$320.00</del></h4>
 									</div>
 								</div>
 								<!-- product widget -->
@@ -610,12 +559,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/bonecos/funko-tresh.jpg')}}" alt="">
+										<img src="{{ url ('assets/img/bonecos/funko-missf.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Funko Pop Tresh</a></h3>
-										<h4 class="product-price">$120.00 <del class="product-old-price">$150.00</del></h4>
+										<h3 class="product-name">Funko Pop Miss Fortune</a></h3>
+										<h4 class="product-price">$182.90 <del class="product-old-price">$200.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -623,12 +572,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/camisetas/camisa-casal.jpg')}}" alt="">
+										<img src="{{ url ('assets/img/bonecos/funko-ashe.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Camisa de Casal</a></h3>
-										<h4 class="product-price">$44.90 <del class="product-old-price">$50.00</del></h4>
+										<h3 class="product-name">Funko Pop Ashe</a></h3>
+										<h4 class="product-price">$202.50 <del class="product-old-price">$25.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -636,12 +585,12 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/acessorios/caderno-yasuo.jpeg')}}" alt="">
+										<img src="{{ url ('assets/img/bonecos/funko-jinx.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Caderno Yasuo</a></h3>
-										<h4 class="product-price">$26.60 <del class="product-old-price">$30.00</del></h4>
+										<h3 class="product-name">Funko Pop Jinx</a></h3>
+										<h4 class="product-price">$226.10 <del class="product-old-price">$323.00</del></h4>
 									</div>
 								</div>
 								<!-- product widget -->
@@ -666,38 +615,38 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/moletons/moletom-zoe.jpg')}}" alt="">
-									</div>
-									<div class="product-body">
-										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Moletom Zoe</a></h3>
-										<h4 class="product-price">$79.90 <del class="product-old-price">$100.00</del></h4>
-									</div>
-								</div>
-								<!-- /product widget -->
-
-								<!-- product widget -->
-								<div class="product-widget">
-									<div class="product-img">
-										<img src="{{ url ('assets/img/acessorios/suporte2.jpg')}}" alt="">
-									</div>
-									<div class="product-body">
-										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Suporte Headset</a></h3>
-										<h4 class="product-price">$146.90 <del class="product-old-price">$155.90</del></h4>
-									</div>
-								</div>
-								<!-- /product widget -->
-
-								<!-- product widget -->
-								<div class="product-widget">
-									<div class="product-img">
 										<img src="{{ url ('assets/img/bonecos/funko-braum.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
 										<h3 class="product-name">Funko Pop Braum</a></h3>
-										<h4 class="product-price">$120.00 <del class="product-old-price">$150.00</del></h4>
+										<h4 class="product-price">$258.30 <del class="product-old-price">$369.00</del></h4>
+									</div>
+								</div>
+								<!-- /product widget -->
+
+								<!-- product widget -->
+								<div class="product-widget">
+									<div class="product-img">
+										<img src="{{ url ('assets/img/bonecos/funko-lee.jpg')}}" alt="">
+									</div>
+									<div class="product-body">
+										<p class="product-category">Categoria</p>
+										<h3 class="product-name">Funko Pop Lee Sin</a></h3>
+										<h4 class="product-price">$256.00 <del class="product-old-price">$320.00</del></h4>
+									</div>
+								</div>
+								<!-- /product widget -->
+
+								<!-- product widget -->
+								<div class="product-widget">
+									<div class="product-img">
+										<img src="{{ url ('assets/img/bonecos/funko-djsona.jpg')}}" alt="">
+									</div>
+									<div class="product-body">
+										<p class="product-category">Categoria</p>
+										<h3 class="product-name">Funko Pop Braum</a></h3>
+										<h4 class="product-price">$247.50 <del class="product-old-price">$275.00</del></h4>
 									</div>
 								</div>
 								<!-- product widget -->
