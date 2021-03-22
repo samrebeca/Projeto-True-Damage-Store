@@ -7,7 +7,7 @@
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
 	<title>True Damage Store</title>
-
+	<link rel="icon" type="image/png" href="{{ url ('assets2/img/icon.jpg')}}">
 	<!-- Google font -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
 

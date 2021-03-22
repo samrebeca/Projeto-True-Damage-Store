@@ -7,7 +7,7 @@
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
 	<title>True Damage Store</title>
-
+	<link rel="icon" type="image/png" href="{{ url ('assets2/img/icon.jpg')}}">
 	<!-- Google font -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
 
@@ -103,7 +103,7 @@
 										<div class="cart-list">
 											<div class="product-widget">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/adesivoporta.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/acessorios/adesivoporta.jpg')}}" alt="">
 												</div>
 												<div class="product-body">
 													<h3 class="product-name"><a href="#">Adesivo de Porta</a></h3>
@@ -114,7 +114,7 @@
 
 											<div class="product-widget">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/almofada.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/almofadas/almofada.jpg')}}" alt="">
 												</div>
 												<div class="product-body">
 													<h3 class="product-name"><a href="#">Almofada</a></h3>
@@ -288,7 +288,7 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/camisetas/camisa-rato.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/camisetas/thresh.jpg')}}" alt="">
 													<div class="product-label">
 														<span class="new">NOVO</span>
 													</div>
@@ -375,12 +375,12 @@
 											<!-- product -->
 											<div class="product">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/mousepads/mousepad-lol.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/mousepads/mousepadveigar.png')}}" alt="">
 												</div>
 												<div class="product-body">
 													<p class="product-category">Categoria</p>
-													<h3 class="product-name"><a href="#">Mousepad LOL</a></h3>
-													<h4 class="product-price">$24.90 <del class="product-old-price">$35.00</del></h4>
+													<h3 class="product-name"><a href="#">Mousepad Veigar</a></h3>
+													<h4 class="product-price">$25.99 <del class="product-old-price">$33.50</del></h4>
 													<div class="product-rating">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
@@ -647,11 +647,11 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/camisetas/camisa-tresh.jpg')}}" alt="">
+										<img src="{{ url ('assets/img/camisetas/thresh.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Camisa Tresh</a></h3>
+										<h3 class="product-name">Camisa Thresh</a></h3>
 										<h4 class="product-price">$59.90 <del class="product-old-price">$70.00</del></h4>
 									</div>
 								</div>
@@ -660,7 +660,7 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/acessorios/caderno4por1.jpg')}}" alt="">
+										<img src="{{ url ('assets/img/acessorios/kit-caderno.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
@@ -835,11 +835,11 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="{{ url ('assets/img/acessorios/caderno-tresh.png')}}" alt="">
+										<img src="{{ url ('assets/img/acessorios/caderno-thresh.jpg')}}" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Categoria</p>
-										<h3 class="product-name">Caderno Tresh</a></h3>
+										<h3 class="product-name">Caderno Thresh</a></h3>
 										<h4 class="product-price">$26.60 <del class="product-old-price">$30.00</del></h4>
 									</div>
 								</div>

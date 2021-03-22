@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title>Pagamento</title>
+	
+	<link rel="icon" type="image/png" href="{{ url ('assets2/img/icon.jpg')}}">
 
 	<!-- Google font -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
@@ -262,35 +264,35 @@
 		}
 		.btn {
 			background: #BF303C; color:#fff; font-weight:600;}
-		
-		.back-btn {
-			color: #fff;
-			background: #BF303C;
-		}
-		
-		.next-btn {
-			color: #fff;
-			background: #BF303C;
-		}
-		
-		.btn:focus {
-			outline: none;
-		}
-		
-		.btn:hover {
-			transform: scale(1.1);
-		}
-		.blue-border {
-			border: 1px solid rgb(110, 178, 251);
-		}
-		.warning {
-			border-color: #1abc9c;
-		}
-	</style>
-</head>
-<body>
 
-	<!-- HEADER -->
+			.back-btn {
+				color: #fff;
+				background: #BF303C;
+			}
+
+			.next-btn {
+				color: #fff;
+				background: #BF303C;
+			}
+
+			.btn:focus {
+				outline: none;
+			}
+
+			.btn:hover {
+				transform: scale(1.1);
+			}
+			.blue-border {
+				border: 1px solid rgb(110, 178, 251);
+			}
+			.warning {
+				border-color: #1abc9c;
+			}
+		</style>
+	</head>
+	<body>
+
+		<!-- HEADER -->
 		<header>
 			<!-- TOP HEADER -->
 			<div id="top-header">
@@ -311,114 +313,90 @@
 			<div id="header">
 				<!-- container -->
 				<div class="container">
-					<!-- row -->
-					<div class="row">
-						<!-- LOGO -->
-						<div class="col-md-3">
-							<div class="header-logo">
-								<a href="#" class="logo" id="product-imgs">
-									<img  src="{{ url ('assets/img/1.png')}}" alt="">
-								</a>
-							</div>
-						</div>
-						<!-- /LOGO -->
+					<center>
+						<div class="checkout-panel">
+							<div class="panel-body">
+								<h2 style= "margin-bottom:30px; font-weight:800; font-size:30px; color: #BF303C; "class="title">DETALHES DE FATURAMENTO</h2>
 
-						<!-- SEARCH BAR -->
-						<div class="col-md-6">
-							<div class="header-search">
-							<img src="{{ url ('assets/img/logo3.png')}}" class="icbarra">
-							</div>
-						</div>
-						
-						
+								<div class="progress-bar">
+									<div class="step active"></div>
+									<div class="step active"></div>
+									<div class="step"></div>
+									<div class="step"></div>
 								</div>
-								
 
-								
- <center>
-	<div class="checkout-panel">
-		<div class="panel-body">
-			<h2 style= "margin-bottom:30px; font-weight:800; font-size:30px; color: #BF303C; "class="title">DETALHES DE FATURAMENTO</h2>
-			
-			<div class="progress-bar">
-				<div class="step active"></div>
-				<div class="step active"></div>
-				<div class="step"></div>
-				<div class="step"></div>
-			</div>
-			
-			<div class="payment-method">
-				<label for="card" class="method card">
-					<div class="card-logos">
-						<img src="https://designmodo.com/demo/checkout-panel/img/visa_logo.png"/>
-						<img src="https://designmodo.com/demo/checkout-panel/img/mastercard_logo.png"/>
-					</div>
-					
-					<div class="radio-input">
-						<input id="card" type="radio" name="payment">
-						Pagar com cartão de crédito
-					</div>
-				</label>
-				
-				<label for="paypal" class="method paypal">
-					<img src="https://designmodo.com/demo/checkout-panel/img/paypal_logo.png"/>
-					<div class="radio-input">
-						<input id="paypal" type="radio" name="payment">
-						Pagar com PayPal
-					</div>
-				</label>
-			</div>
-			
-			<div class="input-fields">
-				<div class="column-1">
-					<label for="cardholder">Nome: (como gravado no cartão)</label>
-					<input type="text" id="cardholder" />
+								<div class="payment-method">
+									<label for="card" class="method card">
+										<div class="card-logos">
+											<img src="https://designmodo.com/demo/checkout-panel/img/visa_logo.png"/>
+											<img src="https://designmodo.com/demo/checkout-panel/img/mastercard_logo.png"/>
+										</div>
 
-					<label for="cardnumber" >CPF</label>
-					<input type="text" id="cardcpf"/>
+										<div class="radio-input">
+											<input id="card" type="radio" name="payment">
+											Pagar com cartão de crédito
+										</div>
+									</label>
 
-				<label for="verification">Número do Cartão:</label>
-							<input type="password" id="verification"/>
+									<label for="paypal" class="method paypal">
+										<img src="https://designmodo.com/demo/checkout-panel/img/paypal_logo.png"/>
+										<div class="radio-input">
+											<input id="paypal" type="radio" name="payment">
+											Pagar com PayPal
+										</div>
+									</label>
+								</div>
+
+								<div class="input-fields">
+									<div class="column-1">
+										<label for="cardholder">Nome: (como gravado no cartão)</label>
+										<input type="text" id="cardholder" />
+
+										<label for="cardnumber" >CPF</label>
+										<input type="text" id="cardcpf"/>
+
+										<label for="verification">Número do Cartão:</label>
+										<input type="password" id="verification"/>
 
 
 
-					
-					
-					<div class="small-inputs">
-						<div>
-							<label for="date">Data de Validade:</label>
-							<input type="text" id="date"/>
+
+
+										<div class="small-inputs">
+											<div>
+												<label for="date">Data de Validade:</label>
+												<input type="text" id="date"/>
+											</div>
+
+											<div>
+												<label for="verification">Código de Segurança:</label>
+												<input type="password" id="verification"/>
+											</div>
+										</div>
+
+									</div>
+
+
+									<br>
+									<div class="column-2">
+										<label for="cardholder">Tipo de Pessoa:</label>
+										<select>
+											<option value="">-</option>
+											<option value="">Pessoa Física</option>
+											<option value="">Pessoa Jurídica</option>
+										</select>
+
+
+
+									</div>
+								</div>
+							</div>
+
+							<div class="panel-footer">
+								<button class="btn back-btn">Voltar</button>
+								<button class="btn next-btn">Finalizar Pagamento</button>
+							</div>
 						</div>
-						
-						<div>
-							<label for="verification">Código de Segurança:</label>
-							<input type="password" id="verification"/>
-						</div>
-					</div>
-					
-				</div>
-
-				
-				<br>
-				<div class="column-2">
-					<label for="cardholder">Tipo de Pessoa:</label>
-					<select>
-					<option value="">-</option>
-					<option value="">Pessoa Física</option>
-					<option value="">Pessoa Jurídica</option>
-				</select>
-					
-					
-					
-				</div>
-			</div>
-		</div>
-		
-		<div class="panel-footer">
-			<button class="btn back-btn">Voltar</button>
-			<button class="btn next-btn">Finalizar Pagamento</button>
-		</div>
-	</div>
-	</center>
-</body>
-</html>
+					</center>
+				</body>
+				</html>

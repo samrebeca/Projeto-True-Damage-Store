@@ -7,7 +7,7 @@
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
 	<title>True Damage Store</title>
-
+	<link rel="icon" type="image/png" href="{{ url ('assets2/img/icon.jpg')}}">
 	<!-- Google font -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
 
@@ -68,12 +68,12 @@
 							</div>
 						</div>
 						<!-- /LOGO -->
-					
+						
 
 						<!-- SEARCH BAR -->
 						<div class="col-md-6">
 							<div class="header-search">
-							<img src="{{ url ('assets/img/logo3.png')}}" class="icbarra">
+								<img src="{{ url ('assets/img/logo3.png')}}" class="icbarra">
 							</div>
 						</div>
 						<!-- /NAVIGATION -->

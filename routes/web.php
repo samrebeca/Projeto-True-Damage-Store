@@ -14,11 +14,6 @@ use Illuminate\Http\Request;
 |
 */
 
-
-Route::get('/cadastro', function () {
-    return view('cadastro');
-});
-
 Route::get('/produtos', function(Request $request){
 	return $request->select;
 })->name('produtos');
@@ -35,3 +30,8 @@ Route::get('produtos/placa' , 'App\Http\Controllers\web\PlacasController@placa')
 Route::get('/login' , 'App\Http\Controllers\web\LoginsController@login')->name("login");
 Route::get('/cadastro' , 'App\Http\Controllers\web\CadastrosController@cadastro')->name("cadastro");
 Route::get('/pagamento' , 'App\Http\Controllers\PagamentosController@pagamento')->name("pagamento");
+Route::get('/adminmaster' , 'App\Http\Controllers\AdminMastersController@adminmaster')->name("adminmaster");
+Route::get('/addproduto' , 'App\Http\Controllers\AddProdutosController@addproduto')->name("addproduto");
+Route::get('/visucliente' , 'App\Http\Controllers\VisuClientesController@visucliente')->name("visucliente");
+Route::get('/editarcliente' , 'App\Http\Controllers\EditarClientesController@editarcliente')->name("editarcliente");
+Route::get('/editarproduto' , 'App\Http\Controllers\EditarProdutosController@editarproduto')->name("editarproduto");

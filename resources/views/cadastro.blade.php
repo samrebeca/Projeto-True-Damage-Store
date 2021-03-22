@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Cadastro</title>
+	<link rel="icon" type="image/png" href="{{ url ('assets2/img/icon.jpg')}}">
 	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

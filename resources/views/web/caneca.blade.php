@@ -7,7 +7,7 @@
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
 	<title>True Damage Store</title>
-
+	<link rel="icon" type="image/png" href="{{ url ('assets2/img/icon.jpg')}}">
 	<!-- Google font -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
 
@@ -103,7 +103,7 @@
 										<div class="cart-list">
 											<div class="product-widget">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/adesivoporta.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/acessorios/adesivoporta.jpg')}}" alt="">
 												</div>
 												<div class="product-body">
 													<h3 class="product-name"><a href="#">Adesivo de Porta</a></h3>
@@ -114,7 +114,7 @@
 
 											<div class="product-widget">
 												<div class="product-img">
-													<img src="{{ url ('assets/img/almofada.jpg')}}" alt="">
+													<img src="{{ url ('assets/img/almofadas/almofada.jpg')}}" alt="">
 												</div>
 												<div class="product-body">
 													<h3 class="product-name"><a href="#">Almofada</a></h3>
