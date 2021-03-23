@@ -16,6 +16,28 @@ Coded by www.creative-tim.com
 <html lang="en">
 
 <head>
+
+   <style type="text/css">
+
+        @import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+        .login-block{
+            background:#560112;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to bottom,#560112,#560112);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to bottom,#560112,#560112); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            float:left;
+            width:100%;
+            padding : 200px 0;
+        }
+
+        .login-sec{padding: 50px 30px; position:relative;}
+        .login-sec .copy-text{position:absolute; width:80%; bottom:20px; font-size:13px; text-align:center;}
+        .login-sec .copy-text i{color:#FEB58A;}
+        .login-sec .copy-text a{color:#E36262;}
+        .login-sec h2{margin-bottom:30px; font-weight:800; font-size:30px; color: #BF303C;}
+        .login-sec h2:after{content:" "; width:100px; height:5px; background:#BF303C; display:block; margin-top:20px; border-radius:3px; margin-left:auto;margin-right:auto}
+        .btn-login{background: #BF303C; color:#fff; font-weight:600;}
+    </style>
+    
   <meta charset="utf-8" />
   <link rel="apple-touch-icon" sizes="76x76" href="{{ url ('assets2/img/apple-icon.png')}}">
   <link rel="icon" type="image/png" href="{{ url ('assets2/img/icon.jpg')}}">
@@ -36,7 +58,7 @@ Coded by www.creative-tim.com
 
 <body class="">
   <div class="wrapper ">
-    <div class="sidebar" data-color="white" data-active-color="danger">
+    <div class="sidebar" data-color="#560112" data-active-color="danger">
       <div class="logo">
         <a href="{{route('adminmaster')}}" class="simple-text logo-mini">
           <div class="logo-image-small">
@@ -67,7 +89,7 @@ Coded by www.creative-tim.com
     </li>
     <li>
       <a href="{{route('editarproduto')}}">
-        <i class="nc-icon nc-app"></i>
+        <i class="nc-icon nc-paper"></i>
         <p>Editar produtos</p>
       </a>
     </li>
@@ -87,27 +109,73 @@ Coded by www.creative-tim.com
 </div>
 </div>
 <div class="main-panel">
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-absolute fixed-top navbar-transparent">
-    <div class="container-fluid">
-      <div class="navbar-wrapper">
-        <div class="navbar-toggle">
-          <button type="button" class="navbar-toggler">
-            <span class="navbar-toggler-bar bar1"></span>
-            <span class="navbar-toggler-bar bar2"></span>
-            <span class="navbar-toggler-bar bar3"></span>
-          </button>
-        </div>
-        <a class="navbar-brand" href="javascript:;">Editar produtos</a>
+ <!-- Título -->
+  <div class="col-md-4 login-sec">
+  
+        <h2 class="text-center" style="margin-top: 5%">Editar Produtos</h2>
       </div>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-bar navbar-kebab"></span>
-        <span class="navbar-toggler-bar navbar-kebab"></span>
-        <span class="navbar-toggler-bar navbar-kebab"></span>
-      </button>
+
+      <!-- End Título -->
+
+
+      <!-- Form -->
+      <div class="col-md-8" style="margin-left: 5%">
+            <div class="card card-user" >
+             
+              <div class="card-body" >
+                <form>
+                  <div class="row">
+                    <div class="col-md-5 pr-1">
+                      <div class="form-group">
+                        <h5>Nome do Produto:</h5>
+                        <input type="text" class="form-control"  >
+                      </div>
+                    </div>
+                   
+                    
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6 pr-1">
+                      <div class="form-group">
+                        <h5>Preço: </h5>
+                        
+                        <input type="number" class="form-control" min="0"step="1.010" > 
+                      </div>
+                    </div>
+
+                     <div class="col-md-4 pr-1">
+                      <div class="form-group">
+                        <h5>Categoria: </h5>
+                        <input type="text" class="form-control" >
+                      </div>
+                    </div>
+                   
+                  </div>
+                  
+                 
+
+                  <div class="row">
+                    <div class="col-md-4 pr-1">
+                      <div class="form-group">
+                        <h5>Imagem do Produto: </h5>
+                         <input type="file" class="form-control">
+                      </div>
+                    </div>
+                   
+                  </div>
+                    <div class="row">
+                    <div class="update ml-auto mr-auto">
+                      <button type="submit" class="btn btn-login float-left" style="font-size: 100%; width: 120%;border-radius: 10px; margin-left: 200%"> <i class="nc-icon nc-check-2"></i> Confirmar</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+<!-- End Form -->
 
     </div>
-  </nav>
   <!-- End Navbar -->
   <div class="content">
     <div class="row">

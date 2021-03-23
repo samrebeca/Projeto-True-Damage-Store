@@ -251,7 +251,7 @@ Copyright (c) 2015 Daniel Eden
   border-radius: 3px;
   padding: 11px 22px;
   cursor: pointer;
-  background-color: #66615B;
+  background-color:#BF303C;
   color: #FFFFFF;
   transition: all 150ms linear; }
   .btn:hover, .btn:focus, .btn:active, .btn.active, .btn:active:focus, .btn:active:hover, .btn.active:focus, .btn.active:hover,
@@ -272,7 +272,7 @@ Copyright (c) 2015 Daniel Eden
   .navbar .navbar-nav > a.btn.dropdown-toggle:focus,
   .show >
   .navbar .navbar-nav > a.btn.dropdown-toggle:hover {
-    background-color: #403D39 !important;
+    background-color: #BF303C !important;
     color: #FFFFFF !important;
     box-shadow: none !important; }
   .btn:not([data-action]):hover,
@@ -982,9 +982,9 @@ fieldset[disabled]
 
 .form-control {
   background-color: #FFFFFF;
-  border: 1px solid #DDDDDD;
+  border: 1px solid #BF303C;
   border-radius: 4px;
-  color: #66615b;
+  color: #BF303C;
   line-height: normal;
   height: auto;
   font-size: 14px;
@@ -1323,14 +1323,15 @@ textarea.form-control {
   padding: 0 12px; }
 
 .form-group input[type=file] {
-  opacity: 0;
-  position: absolute;
+  
+  position: relative;
+  font-size: 15px;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 200%;
+  height: 80%;
   z-index: 100; }
 
 .form-text {
@@ -1445,7 +1446,7 @@ p.description {
 
 .text-primary,
 a.text-primary:focus, a.text-primary:hover {
-  color: #51cbce !important; }
+  color: #BF303C !important; }
 
 .text-info,
 a.text-info:focus, a.text-info:hover {
@@ -2888,7 +2889,7 @@ License - nucleoapp.com/license/
     padding-bottom: 0; }
 
 .table > thead > tr > th {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 700;
   padding-bottom: 0;
   text-transform: uppercase;
@@ -2915,6 +2916,7 @@ License - nucleoapp.com/license/
 .table > thead > tr > td,
 .table > tbody > tr > td,
 .table > tfoot > tr > td {
+  font-size: 20px;
   padding: 12px 7px;
   vertical-align: middle; }
 
@@ -3192,8 +3194,7 @@ License - nucleoapp.com/license/
     left: 0; }
   .sidebar:after,
   .off-canvas-sidebar:after {
-    background: #66615B;
-    background: linear-gradient(#66615B 0%, #000 80%);
+    background: #560112;
     z-index: 3; }
   .sidebar[data-color="white"]:after,
   .off-canvas-sidebar[data-color="white"]:after {
@@ -3340,6 +3341,7 @@ License - nucleoapp.com/license/
   position: relative;
   float: right;
   width: calc(100% - 260px);
+  height: 100%;
   background-color: #f4f3ef;
   transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1); }
   .main-panel > .content {
@@ -3661,7 +3663,7 @@ License - nucleoapp.com/license/
   .card[data-background-color="red"] {
     background-color: #ef8157; }
   .card[data-background-color="yellow"] {
-    background-color: #fbc658; }
+    background-color: #BF303C; }
   .card[data-background-color="blue"] {
     background-color: #51bcda; }
   .card[data-background-color="green"] {
@@ -3691,10 +3693,10 @@ License - nucleoapp.com/license/
     background-color: transparent;
     border: 0; }
     .card .card-footer .stats i {
-      margin-right: 5px;
+      margin-right: 30px;
       position: relative;
       top: 0px;
-      color: #66615B; }
+      color: #BF303C; }
     .card .card-footer .btn {
       margin: 0; }
   .card.card-plain {
