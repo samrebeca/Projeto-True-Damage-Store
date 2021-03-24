@@ -83,15 +83,6 @@
 						<!-- ACCOUNT -->
 						<div class="col-md-3 clearfix">
 							<div class="header-ctn">
-								<!-- Wishlist -->
-								<div>
-									<a href="#">
-										<i class="fa fa-heart-o"></i>
-										<span>Favoritos</span>
-										<div class="qty">2</div>
-									</a>
-								</div>
-								<!-- /Wishlist -->
 
 								<!-- Cart -->
 								<div class="dropdown">
@@ -223,10 +214,6 @@
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 													</div>
-													<div class="product-btns">
-														<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
-
-													</div>
 												</div>
 
 												<div class="add-to-cart">
@@ -255,10 +242,6 @@
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star-o"></i>
 													</div>
-													<div class="product-btns">
-														<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
-
-													</div>
 												</div>
 												<div class="add-to-cart">
 													<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
@@ -285,10 +268,6 @@
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 													</div>
-													<div class="product-btns">
-														<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
-
-													</div>
 												</div>
 												<div class="add-to-cart">
 													<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
@@ -311,10 +290,6 @@
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
-													</div>
-													<div class="product-btns">
-														<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
-
 													</div>
 												</div>
 												<div class="add-to-cart">
@@ -366,10 +341,6 @@
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 													</div>
-													<div class="product-btns">
-														<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
-
-													</div>
 												</div>
 												<div class="add-to-cart">
 													<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
@@ -395,10 +366,6 @@
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star-o"></i>
-													</div>
-													<div class="product-btns">
-														<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
-
 													</div>
 												</div>
 												<div class="add-to-cart">
@@ -426,10 +393,6 @@
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 													</div>
-													<div class="product-btns">
-														<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
-
-													</div>
 												</div>
 												<div class="add-to-cart">
 													<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
@@ -453,10 +416,6 @@
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 													</div>
-													<div class="product-btns">
-														<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
-
-													</div>
 												</div>
 												<div class="add-to-cart">
 													<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Adicionar ao carrinho</button>
@@ -479,10 +438,6 @@
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
-													</div>
-													<div class="product-btns">
-														<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favoritar</span></button>
-
 													</div>
 												</div>
 												<div class="add-to-cart">

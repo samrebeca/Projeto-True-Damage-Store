@@ -5,10 +5,10 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class AdminMastersController extends Controller
+class AdicionarsController extends Controller
 {
-	public function adminmaster()
+	public function adicionar()
 	{
-		return view('adminmaster');
+		return view('adicionar');
 	}
 }

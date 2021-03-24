@@ -49,12 +49,12 @@
                     <form class="login-form">
                       <div class="form-group">
                         <label for="exampleInputEmail1" class="text-uppercase">Nome do Usuário</label>
-                        <input type="text" class="form-control" placeholder="">
+                        <input type="text" class="form-control" placeholder="Insira seu nome de usuário">
 
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1" class="text-uppercase">Senha</label>
-                        <input type="password" class="form-control" placeholder="">
+                        <input type="password" class="form-control" placeholder="Insira sua senha">
                     </div>
 
 
@@ -77,9 +77,9 @@
 
         </div>
         <div class="col-md-8 banner-sec">
-            
-</div>
-</div>
+
+        </div>
+    </div>
 </section>
 </body>
 </html>

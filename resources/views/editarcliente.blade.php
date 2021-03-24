@@ -60,13 +60,13 @@ Coded by www.creative-tim.com
   <div class="wrapper ">
     <div class="sidebar" data-color="#560112" data-active-color="danger">
       <div class="logo">
-        <a href="{{route('adminmaster')}}" class="simple-text logo-mini">
+        <a class="simple-text logo-mini">
           <div class="logo-image-small">
             <img src="{{ url ('assets2/img/icon.jpg')}}">
           </div>
           <!-- <p>CT</p> -->
         </a>
-        <a href="{{route('adminmaster')}}" class="simple-text logo-normal">
+        <a class="simple-text logo-normal">
           True Damage Store
           <!-- <div class="logo-image-big">
             <img src="../assets/img/logo-big.png">

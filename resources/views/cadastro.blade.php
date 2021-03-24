@@ -49,36 +49,32 @@
 					<form class="login-form">
 						<div class="form-group">
 							<label for="exampleInputEmail1" class="text-uppercase">Nome do Usuário</label>
-							<input type="text" class="form-control" placeholder="">
+							<input type="text" class="form-control" placeholder="Insira seu nome de usuário">
 						</div>
 						<div class="form-group">
 							<label for="exampleInputEmail1" class="text-uppercase">E-mail</label>
-							<input type="text" class="form-control" placeholder="">
+							<input type="text" class="form-control" placeholder="Insira um endereço de e-mail">
 						</div>
 						<div class="form-group">
 							<label for="exampleInputPassword1" class="text-uppercase">Senha</label>
-							<input type="password" class="form-control" placeholder="">
+							<input type="password" class="form-control" placeholder="Insira uma senha">
 						</div>
 						<div class="form-group">
 							<label for="exampleInputPassword1" class="text-uppercase">Confirmar Senha</label>
-							<input type="password" class="form-control" placeholder="">
+							<input type="password" class="form-control" placeholder="Confirme a senha">
 						</div>
 						<div class="form-check">
-							<label class="form-check-label">
-								<input type="checkbox" class="form-check-input">
-								<small>Lembrar senha</small>
-							</label>
-							<br>
-							<br>
 							<button type="submit" class="btn btn-login float-right">Cadastrar</button>
 						</div>
-
+						<div class="text-left">
+							<div class="big"><a href="{{ route('login') }}">Já possui uma conta?</a></div>
+						</div>
 					</form>
 
 				</div>
 				<div class="col-md-8 banner-sec">
 					<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-					
+
 						<div class="carousel-inner" role="listbox">
 							<div class="carousel-item active">
 								<img class="d-block img-fluid" src="{{ url ('assets/img/TrueDamage.jpg')}}" alt="First slide">
