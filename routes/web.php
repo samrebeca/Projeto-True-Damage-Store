@@ -17,21 +17,6 @@ use Illuminate\Http\Request;
 //rota inicial
 Route::get('/' , 'App\Http\Controllers\web\HomeController@home')->name("home");
 
-//rota relacionada ao id do produto
-Route::get('/produto/{id}', 'HomeController@produto')->name('produto');
-
-//rotas do carrinho
-Route::get('/carrinho', 'CarrinhoController@index')->name('carrinho.index');
-Route::get('/carrinho/adicionar', function() {
-    return redirect()->route('index');
-});
-//continuação de rotas para o carrinho (usuário)
-Route::post('/carrinho/adicionar', 'CarrinhoController@adicionar')->name('carrinho.adicionar');
-Route::delete('/carrinho/remover', 'CarrinhoController@remover')->name('carrinho.remover');
-Route::post('/carrinho/concluir', 'CarrinhoController@concluir')->name('carrinho.concluir');
-Route::get('/carrinho/compras', 'CarrinhoController@compras')->name('carrinho.compras');
-Route::post('/carrinho/cancelar', 'CarrinhoController@cancelar')->name('carrinho.cancelar');
-
 //rota dos produtos
 Route::get("/produtos/acessorio", "App\Http\Controllers\web\AcessoriosController@acessorio")->name("acessorio");
 Route::get("/produtos/almofada", "App\Http\Controllers\web\AlmofadasController@almofada")->name("almofada");
@@ -55,3 +40,4 @@ Route::get('/addproduto' , 'App\Http\Controllers\AddProdutosController@addprodut
 Route::get('/visucliente' , 'App\Http\Controllers\VisuClientesController@visucliente')->name("visucliente");
 Route::get('/editarcliente' , 'App\Http\Controllers\EditarClientesController@editarcliente')->name("editarcliente");
 Route::get('/editarproduto' , 'App\Http\Controllers\EditarProdutosController@editarproduto')->name("editarproduto");
+
