@@ -15,8 +15,8 @@ class CreatePedidoProdutosTable extends Migration
     {
         Schema::create('pedido_produtos', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('pedido_id')->unsigned(); // unsigned: somente inteiros positivos
-            $table->integer('produto_id')->unsigned();  // unsigned: somente inteiros positivos
+            $table->bigInteger('pedido_id')->unsigned(); // unsigned: somente inteiros positivos
+            $table->bigInteger('produto_id')->unsigned();  // unsigned: somente inteiros positivos
             $table->enum('status', ['RE', 'PA', 'CA']); // Reservado, Pago, Cancelado
             $table->decimal('valor', 6, 2)->default(0);
             $table->timestamps();

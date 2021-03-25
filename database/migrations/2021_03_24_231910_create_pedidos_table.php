@@ -14,8 +14,8 @@ class CreatePedidosTable extends Migration
     public function up()
     {
         Schema::create('pedidos', function (Blueprint $table) {
-            $table->increments('id');
-            $table->integer('user_id')->unsigned(); // unsigned: somente inteiros positivos
+            $table->id();
+            $table->bigInteger('user_id')->unsigned(); // unsigned: somente inteiros positivos
             $table->enum('status', ['RE', 'PA', 'CA']); // Reservado, Pago, Cancelado
             $table->timestamps();
             $table->foreign('user_id')->references('id')->on('users');
