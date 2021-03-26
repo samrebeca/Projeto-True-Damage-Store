@@ -47,7 +47,18 @@
 						<li style="color: #ffffff"><i class="fa fa-map-marker"></i> Caicó / Jucurutu</a></li>
 					</ul>
 					<ul class="header-links pull-right">
-						<li><a href="{{route('login')}}"><i class="fa fa-user-o"></i> Minha Conta</a></li>
+						<li><a href="{{route('login')}}"><i class="fa fa-user-o"></i> {{ Auth::user()->name }} </a></li>
+						<li style="color: #ffffff"><a class="nav-link" href="{{ route('logout') }}"
+						onclick="document.getElementById('form-logout').submit(); return false">
+						<div class="sb-sidenav-link-icon">
+							<i class="fas fa-sign-out-alt"></i>
+						</div>
+						Sair
+					</a>
+
+					<form method="POST" action="{{ route('logout') }}" id="form-logout">
+						@csrf
+					</form></li>
 					</ul>
 				</div>
 			</div>

@@ -18,24 +18,24 @@ Coded by www.creative-tim.com
 <head>
   <style type="text/css">
 
-        @import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
-        .login-block{
-            background:#560112;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to bottom,#560112,#560112);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to bottom,#560112,#560112); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-            float:left;
-            width:100%;
-            padding : 200px 0;
-        }
+    @import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+    .login-block{
+      background:#560112;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to bottom,#560112,#560112);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to bottom,#560112,#560112); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      float:left;
+      width:100%;
+      padding : 200px 0;
+    }
 
-        .login-sec{padding: 50px 30px; position:relative;}
-        .login-sec .copy-text{position:absolute; width:80%; bottom:20px; font-size:13px; text-align:center;}
-        .login-sec .copy-text i{color:#FEB58A;}
-        .login-sec .copy-text a{color:#E36262;}
-        .login-sec h2{margin-bottom:30px; font-weight:800; font-size:30px; color: #BF303C;}
-        .login-sec h2:after{content:" "; width:100px; height:5px; background:#BF303C; display:block; margin-top:20px; border-radius:3px; margin-left:auto;margin-right:auto}
-        .btn-login{background: #BF303C; color:#fff; font-weight:600;}
-    </style>
+    .login-sec{padding: 50px 30px; position:relative;}
+    .login-sec .copy-text{position:absolute; width:80%; bottom:20px; font-size:13px; text-align:center;}
+    .login-sec .copy-text i{color:#FEB58A;}
+    .login-sec .copy-text a{color:#E36262;}
+    .login-sec h2{margin-bottom:30px; font-weight:800; font-size:30px; color: #BF303C;}
+    .login-sec h2:after{content:" "; width:100px; height:5px; background:#BF303C; display:block; margin-top:20px; border-radius:3px; margin-left:auto;margin-right:auto}
+    .btn-login{background: #BF303C; color:#fff; font-weight:600;}
+  </style>
 
   <meta charset="utf-8" />
 
@@ -71,48 +71,36 @@ Coded by www.creative-tim.com
           True Damage Store
           <!-- <div class="logo-image-big">
             <img src="../assets/img/logo-big.png">
-        </div> -->
-    </a>
-</div>
-<div class="sidebar-wrapper">
-  <ul class="nav">
-    <li>
-      <a href="{{route('addproduto')}}">
-        <i class="nc-icon nc-simple-add"></i>
-        <p>Adicionar produto</p>
-      </a>
-    </li>
-    <li>
-      <a href="{{route('visucliente')}}">
-        <i class="nc-icon nc-bullet-list-67"></i>
-        <p>Visualizar clientes</p>
-      </a>
-    </li>
-    <li>
-      <a href="{{route('editarproduto')}}">
-        <i class="nc-icon nc-paper"></i>
-        <p>Editar produtos</p>
-      </a>
-    </li>
-    <li>
-      <a href="{{route('editarcliente')}}">
-        <i class="nc-icon nc-circle-10"></i>
-        <p>Editar clientes</p>
-      </a>
-    </li>
-    <li>
-      <a href="{{route('home')}}">
-        <i class="nc-icon nc-minimal-left"></i>
-        <p>Sair</p>
-      </a>
-    </li>
-  </ul>
-</div>
-</div>
-<div class="main-panel">
-  <!-- Título -->
-  <div class="col-md-4 login-sec">
-  
+          </div> -->
+        </a>
+      </div>
+      <div class="sidebar-wrapper">
+        <ul class="nav">
+          <li>
+            <a href="{{route('addproduto')}}">
+              <i class="nc-icon nc-simple-add"></i>
+              <p>Adicionar produto</p>
+            </a>
+          </li>
+          <li>
+            <a href="{{route('visucliente')}}">
+              <i class="nc-icon nc-bullet-list-67"></i>
+              <p>Visualizar clientes</p>
+            </a>
+          </li>
+          <li>
+            <a href="{{route('home')}}">
+              <i class="nc-icon nc-minimal-left"></i>
+              <p>Sair</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-panel">
+      <!-- Título -->
+      <div class="col-md-4 login-sec">
+        
         <h2 class="text-center" style="margin-top: 5%">Visualizar Clientes</h2>
       </div>
 
@@ -122,7 +110,7 @@ Coded by www.creative-tim.com
         <div class="row">
           <div class="col-md-10" style="margin-left: 5%">
             <div class="card">
-                <div class="card-body">
+              <div class="card-body">
                 <div class="table-responsive">
                   <table class="table">
                     <thead class="text-primary">
@@ -154,7 +142,7 @@ Coded by www.creative-tim.com
                         </td>
                         <td>
                           <button type="submit" class="btn btn-login float-left" style="font-size: 40%; width: 30%;border-radius: 10px;  "> <i class="material-icons">delete</i></button>
-                          <button type="submit" class="btn btn-login float-left" style="font-size: 40%; width: 30%;border-radius: 10px; margin-left: 2%"> <i class="material-icons">edit</i></button>
+                          <a href="{{route('editarcliente')}}"><button type="submit" class="btn btn-login float-left" style="font-size: 40%; width: 30%;border-radius: 10px; margin-left: 2%"> <i class="material-icons">edit</i></button></a>
                           
                         </td>
 
@@ -175,7 +163,7 @@ Coded by www.creative-tim.com
                           <button type="submit" class="btn btn-login float-left" style="font-size: 40%; width: 30%;border-radius: 10px; margin-left: 2%"> <i class="material-icons">edit</i></button>
                           
                         </td>
-                       
+                        
                       </tr>
                       <tr>
                         <td>
@@ -192,12 +180,12 @@ Coded by www.creative-tim.com
                           <button type="submit" class="btn btn-login float-left" style="font-size: 40%; width: 30%;border-radius: 10px; margin-left: 2%"> <i class="material-icons">edit</i></button>
                           
                         </td>
-                       
+                        
                       </tr>
 
 
 
-                     
+                      
                       
                     </tbody>
                   </table>
@@ -207,31 +195,31 @@ Coded by www.creative-tim.com
           </div>
           
 
-    </div>
+        </div>
 
-  
-  </div>
-</div>
-<!--   Core JS Files   -->
-<script src="{{ url ('assets2/js/core/jquery.min.js')}}"></script>
-<script src="{{ url ('assets2/js/core/popper.min.js')}}"></script>
-<script src="{{ url ('assets2/js/core/bootstrap.min.js')}}"></script>
-<script src="{{ url ('assets2/js/plugins/perfect-scrollbar.jquery.min.js')}}"></script>
-<!--  Google Maps Plugin    -->
-<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
-<!-- Chart JS -->
-<script src="{{ url ('assets2/js/plugins/chartjs.min.js')}}"></script>
-<!--  Notifications Plugin    -->
-<script src="{{ url ('assets2/js/plugins/bootstrap-notify.js')}}"></script>
-<!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
-<script src="{{ url ('assets2/js/paper-dashboard.min.js?v=2.0.1')}}" type="text/javascript"></script><!-- Paper Dashboard DEMO methods, don't include it in your project! -->
-<script src="{{ url ('assets2/demo/demo.js')}}"></script>
-<script>
-  $(document).ready(function() {
+        
+      </div>
+    </div>
+    <!--   Core JS Files   -->
+    <script src="{{ url ('assets2/js/core/jquery.min.js')}}"></script>
+    <script src="{{ url ('assets2/js/core/popper.min.js')}}"></script>
+    <script src="{{ url ('assets2/js/core/bootstrap.min.js')}}"></script>
+    <script src="{{ url ('assets2/js/plugins/perfect-scrollbar.jquery.min.js')}}"></script>
+    <!--  Google Maps Plugin    -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+    <!-- Chart JS -->
+    <script src="{{ url ('assets2/js/plugins/chartjs.min.js')}}"></script>
+    <!--  Notifications Plugin    -->
+    <script src="{{ url ('assets2/js/plugins/bootstrap-notify.js')}}"></script>
+    <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
+    <script src="{{ url ('assets2/js/paper-dashboard.min.js?v=2.0.1')}}" type="text/javascript"></script><!-- Paper Dashboard DEMO methods, don't include it in your project! -->
+    <script src="{{ url ('assets2/demo/demo.js')}}"></script>
+    <script>
+      $(document).ready(function() {
       // Javascript method's body can be found in assets/assets-for-demo/js/demo.js
       demo.initChartsPages();
-  });
-</script>
+    });
+  </script>
 </body>
 
 </html>

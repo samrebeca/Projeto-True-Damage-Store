@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
     <title>Login</title>
     <link rel="icon" type="image/png" href="{{ url ('assets2/img/icon.jpg')}}">
@@ -41,45 +41,53 @@
     </style>
 </head>
 <body>
-    <section class="login-block">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 login-sec">
-                    <h2 class="text-center">Entre agora</h2>
-                    <form class="login-form">
-                      <div class="form-group">
-                        <label for="exampleInputEmail1" class="text-uppercase">Nome do Usuário</label>
-                        <input type="text" class="form-control" placeholder="Insira seu nome de usuário">
+    <div  id="layoutAuthentication">
+        <div id="layoutAuthentication_content">
+            <section class="login-block">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 login-sec">
+                            @if($errors->count() > 0)
+                            <div class="alert alert-danger">
+                                @foreach ($errors->all() as $error)
+                                <span>{{ $error }}</span>
+                                @endforeach
+                            </div>
+                            @endif
+                            <h2 class="text-center">Entre agora</h2>
+                            <form class="login-form" action="{{url ('/login')}}" method="POST">
+                                @csrf
+                                <div class="form-group">
+                                   <label class="small mb-1" for="email">Email</label>
+                                   <input class="form-control py-4" id="email" type="email" placeholder="Insira seu endereço de email" name="email" :value="old('email')" required autofocus/>
+                               </div>
+                               <div class="form-group">
+                                <label class="small mb-1" for="password">Senha</label>
+                                <input class="form-control py-4" id="password" type="password" placeholder="Insira sua senha" name="password" required />
+                            </div>
+                            <div class="form-group">
+                                <div class="custom-control custom-checkbox">
+                                    <input class="custom-control-input" id="remember_me" type="checkbox" name="remember" />
+                                    <label class="custom-control-label" for="remember_me"> Lembrar senha</label>
+                                </div>
+                            </div>
+                            <p class="link">
+                                Ainda não tem conta?
+                                <a href="{{route('cadastro')}}">Cadastre-se</a>
+                            </p>
+
+                            <button type="submit" class="btn btn-login float-right" >Entrar</button>
+
+
+                        </form>
 
                     </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1" class="text-uppercase">Senha</label>
-                        <input type="password" class="form-control" placeholder="Insira sua senha">
+                    <div class="col-md-8 banner-sec">
+
                     </div>
-
-
-                    <div class="form-check">
-                        <label class="form-check-label">
-                          <input type="checkbox" class="form-check-input">
-                          <small>Lembrar senha</small>
-                      </label>
-                      
-                  </div>
-                  <p class="link">
-                    Ainda não tem conta?
-                    <a href="{{route('cadastro')}}">Cadastre-se</a>
-                </p>
-                
-                <button type="submit" class="btn btn-login float-right" >Entrar</button>
-
-
-            </form>
-
-        </div>
-        <div class="col-md-8 banner-sec">
-
+                </div>
+            </section>
         </div>
     </div>
-</section>
-</body>
-</html>
+
+    </html>

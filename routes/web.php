@@ -35,9 +35,10 @@ Route::get('/cadastro' , 'App\Http\Controllers\web\CadastrosController@cadastro'
 Route::get('/pagamento' , 'App\Http\Controllers\PagamentosController@pagamento')->name("pagamento");
 
 //rotas do admin do sistema
-Route::get('/adicionar' , 'App\Http\Controllers\AdicionarsController@adicionar')->name("adicionar");
-Route::get('/addproduto' , 'App\Http\Controllers\AddProdutosController@addproduto')->name("addproduto");
-Route::get('/visucliente' , 'App\Http\Controllers\VisuClientesController@visucliente')->name("visucliente");
-Route::get('/editarcliente' , 'App\Http\Controllers\EditarClientesController@editarcliente')->name("editarcliente");
-Route::get('/editarproduto' , 'App\Http\Controllers\EditarProdutosController@editarproduto')->name("editarproduto");
+Route::get('admin/adicionar' , 'App\Http\Controllers\AdicionarsController@adicionar')->name("adicionar");
+Route::get('admin/addproduto' , 'App\Http\Controllers\AddProdutosController@addproduto')->name("addproduto");
+Route::get('admin/visucliente' , 'App\Http\Controllers\VisuClientesController@visucliente')->name("visucliente");
+Route::get('admin/editarcliente' , 'App\Http\Controllers\EditarClientesController@editarcliente')->name("editarcliente");
+Route::get('admin/editarproduto' , 'App\Http\Controllers\EditarProdutosController@editarproduto')->name("editarproduto");
 
+require __DIR__.'/auth.php';

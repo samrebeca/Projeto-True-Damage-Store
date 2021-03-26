@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -47,7 +47,8 @@
 						<li style="color: #ffffff"><i class="fa fa-map-marker"></i> Caicó / Jucurutu</a></li>
 					</ul>
 					<ul class="header-links pull-right">
-						<li><a href="{{route('login')}}"><i class="fa fa-user-o"></i> Minha Conta</a></li>
+						<li><a href="{{route('login')}}"><i class="fa fa-user-o"></i> {{ Auth::user()->name }} </a></li>
+						<li style="color: #ffffff"><a href="{{route('login')}}"> Sair </a></li>
 					</ul>
 				</div>
 			</div>
@@ -72,7 +73,7 @@
 						<!-- SEARCH BAR -->
 						<div class="col-md-6">
 							<div class="header-search">
-							<img src="{{ url ('assets/img/logo3.png')}}" class="icbarra">
+								<img src="{{ url ('assets/img/logo3.png')}}" class="icbarra">
 							</div>
 						</div>
 						<!-- /NAVIGATION -->

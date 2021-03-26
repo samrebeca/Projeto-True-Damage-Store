@@ -393,7 +393,7 @@
 							</div>
 
 							<div class="panel-footer">
-								<button class="btn back-btn">Voltar</button>
+								<a href="{{route('home')}}"><button class="btn back-btn">Voltar</button></a>
 								<button class="btn next-btn">Finalizar Pagamento</button>
 							</div>
 						</div>
