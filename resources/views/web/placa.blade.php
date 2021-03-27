@@ -48,17 +48,7 @@
 					</ul>
 					<ul class="header-links pull-right">
 						<li><a href="{{route('login')}}"><i class="fa fa-user-o"></i> {{ Auth::user()->name }} </a></li>
-						<li style="color: #ffffff"><a class="nav-link" href="{{ route('logout') }}"
-						onclick="document.getElementById('form-logout').submit(); return false">
-						<div class="sb-sidenav-link-icon">
-							<i class="fas fa-sign-out-alt"></i>
-						</div>
-						Sair
-					</a>
-
-					<form method="POST" action="{{ route('logout') }}" id="form-logout">
-						@csrf
-					</form></li>
+						<li style="color: #ffffff"><a href="{{route('login')}}"> Sair </a></li>
 					</ul>
 				</div>
 			</div>
@@ -130,7 +120,7 @@
 										</div>
 										<div class="cart-btns">
 											<a href="#">Ver Carrinho</a>
-											<a href="#">Finalizar <i class="fa fa-arrow-circle-right"></i></a>
+											<a href="{{route('pagamento')}}">Finalizar <i class="fa fa-arrow-circle-right"></i></a>
 										</div>
 									</div>
 								</div>

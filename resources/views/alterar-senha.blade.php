@@ -15,9 +15,9 @@
 				<div class="w3-container">
 
 					@if (session('msg'))
-						<div class="alert alert-danger text-center">
-							{{ session('msg') }}
-						</div>
+					<div class="alert alert-danger text-center">
+						{{ session('msg') }}
+					</div>
 					@endif
 					<form method="post" action="{{ route('users.update-password', ['user'=>$user->id]) }}">
 						@method('PUT')

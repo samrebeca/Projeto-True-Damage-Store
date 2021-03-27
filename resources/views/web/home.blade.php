@@ -48,7 +48,10 @@
 					</ul>
 					<ul class="header-links pull-right">
 						<li><a href="{{route('login')}}"><i class="fa fa-user-o"></i> {{ Auth::user()->name }} </a></li>
-						<li style="color: #ffffff"><a href="{{route('login')}}"> Sair </a></li>
+						<form method="POST" action="/logout" style="display: inline;">
+							@csrf
+							<a href="{{route('login')}}" style="color: #ffffff"> Sair </a>
+						</form>
 					</ul>
 				</div>
 			</div>

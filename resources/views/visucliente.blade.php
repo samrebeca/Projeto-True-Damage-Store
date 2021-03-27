@@ -100,7 +100,7 @@ Coded by www.creative-tim.com
     <div class="main-panel">
       <!-- Título -->
       <div class="col-md-4 login-sec">
-        
+
         <h2 class="text-center" style="margin-top: 5%">Visualizar Clientes</h2>
       </div>
 
@@ -160,7 +160,7 @@ Coded by www.creative-tim.com
                         </td>
                         <td>
                           <button type="submit" class="btn btn-login float-left" style="font-size: 40%; width: 30%;border-radius: 10px;  "> <i class="material-icons">delete</i></button>
-                          <button type="submit" class="btn btn-login float-left" style="font-size: 40%; width: 30%;border-radius: 10px; margin-left: 2%"> <i class="material-icons">edit</i></button>
+                          <a href="{{route('editarcliente')}}"><button type="submit" class="btn btn-login float-left" style="font-size: 40%; width: 30%;border-radius: 10px; margin-left: 2%"> <i class="material-icons">edit</i></button></a>
                           
                         </td>
                         
@@ -177,7 +177,7 @@ Coded by www.creative-tim.com
                         </td>
                         <td>
                           <button type="submit" class="btn btn-login float-left" style="font-size: 40%; width: 30%;border-radius: 10px;  "> <i class="material-icons">delete</i></button>
-                          <button type="submit" class="btn btn-login float-left" style="font-size: 40%; width: 30%;border-radius: 10px; margin-left: 2%"> <i class="material-icons">edit</i></button>
+                          <a href="{{route('editarcliente')}}"><button type="submit" class="btn btn-login float-left" style="font-size: 40%; width: 30%;border-radius: 10px; margin-left: 2%"> <i class="material-icons">edit</i></button></a>
                           
                         </td>
                         

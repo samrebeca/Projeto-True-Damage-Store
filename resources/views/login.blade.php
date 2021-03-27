@@ -58,10 +58,10 @@
                             <form class="login-form" action="{{url ('/login')}}" method="POST">
                                 @csrf
                                 <div class="form-group">
-                                   <label class="small mb-1" for="email">Email</label>
-                                   <input class="form-control py-4" id="email" type="email" placeholder="Insira seu endereço de email" name="email" :value="old('email')" required autofocus/>
-                               </div>
-                               <div class="form-group">
+                                 <label class="small mb-1" for="email">Email</label>
+                                 <input class="form-control py-4" id="email" type="email" placeholder="Insira seu endereço de email" name="email" :value="old('email')" required autofocus/>
+                             </div>
+                             <div class="form-group">
                                 <label class="small mb-1" for="password">Senha</label>
                                 <input class="form-control py-4" id="password" type="password" placeholder="Insira sua senha" name="password" required />
                             </div>

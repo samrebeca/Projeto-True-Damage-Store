@@ -122,7 +122,7 @@
 										</div>
 										<div class="cart-btns">
 											<a href="#">Ver Carrinho</a>
-											<a href="#">Finalizar <i class="fa fa-arrow-circle-right"></i></a>
+											<a href="{{route('pagamento')}}">Finalizar <i class="fa fa-arrow-circle-right"></i></a>
 										</div>
 									</div>
 								</div>
